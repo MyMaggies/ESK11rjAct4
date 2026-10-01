@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romeo and Juliet Act 4 analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,18..144,400;0,18..144,500;0,18..144,600;0,18..144,700;1,18..144,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap");
+
+/* =========================================================
+   Romeo and Juliet, Act 4: the plan, the potion, and the "death"
+   Day  = Verona at dusk: terracotta rooftops, warm stone, antique gold
+   Night = a moonlit balcony: deep wine sky, candlelight gold on everything that matters
+   ========================================================= */
+:root{
+  --bg:#F3E6DA; --panel:#FFFBF5; --panel2:#F8ECE0; --ink:#2A1712; --muted:#7C5A4C; --line:#E3C7AF; --line2:#C89A7C;
+  --accent:#7A1F3D; --accent-ink:#FFFFFF; --hl:#F4DCE4;
+  --gold:#8A5300; --goldbg:#FBEFC9; --lightning:#CE9A2E; --lightning-ink:#241400;
+  --blood:#A81D2A; --ok:#1E6B49; --teal:#0F6672; --amber:#A4520F;
+  --mark:rgba(206,154,46,.55); --mark2:rgba(206,154,46,.85); --markfaint:rgba(206,154,46,.20);
+  --rule:rgba(168,29,42,.30);
+  --sky1:#E7B49E; --sky2:#EDD9E4; --mist:rgba(255,248,240,.65);
+  --glow:rgba(255,214,150,.5); --glow2:rgba(180,60,90,.15);
+  --ground:#241018; --ground-ink:#F7ECE0;
+  --spell1:#4A0E24; --spell2:#7A1F3D;
+  --onfill:#FFFFFF; --violet:#6B3FA0; --glow-rev:rgba(255,214,150,.6);
+  --scale:1;
+  --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='100' viewBox='0 0 92 100'%3E%3Cpath fill='%23C9A488' d='M28 100V38h36v62zM20 100V54h6v46zM66 100V54h6v46z'/%3E%3Cpath fill='%23C9A488' d='M18 54h56v8H18z'/%3E%3Cpath fill='%23C9A488' d='M24 38 46 10 68 38z'/%3E%3Cpath fill='%23C9A488' d='M36 62v38h20V62a10 10 0 0 0-20 0z'/%3E%3Crect x='27' y='58' width='3' height='10' fill='%23C9A488'/%3E%3Crect x='35' y='58' width='3' height='10' fill='%23C9A488'/%3E%3Crect x='43' y='58' width='3' height='10' fill='%23C9A488'/%3E%3Crect x='51' y='58' width='3' height='10' fill='%23C9A488'/%3E%3Crect x='59' y='58' width='3' height='10' fill='%23C9A488'/%3E%3Crect x='40' y='18' width='12' height='16' rx='6' fill='%23F0C36B'/%3E%3Crect x='24' y='70' width='7' height='10' rx='1.5' fill='%23F0C36B'/%3E%3Crect x='61' y='70' width='7' height='10' rx='1.5' fill='%23F0C36B'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%23D8B8A0' d='M0 100V64l60-18 60 14 70-22 80 20 70-16 90 24 80-18 70 16 90-20 80 18 70-14 90 20 80-16v72Z'/%3E%3Cpath fill='%23B98C6E' d='M0 100V82l50-10 60 12 70-14 60 10 80-16 70 14 90-12 70 10 80-14 60 12 90-10 70 8v98Z'/%3E%3C/svg%3E");
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#160B12; --panel:#221320; --panel2:#2B1828; --ink:#F5E8ED; --muted:#C9A8B8; --line:#452A42; --line2:#63405C;
+    --accent:#E8B84B; --accent-ink:#241400; --hl:rgba(232,184,75,.16);
+    --gold:#E8B84B; --goldbg:#332408; --lightning:#E8B84B; --lightning-ink:#241400;
+    --blood:#FF7A85; --ok:#6FD6A6; --teal:#6DD3DE; --amber:#FFAE6B; --onfill:#160B12; --violet:#C9A0E8;
+    --mark:rgba(232,184,75,.32); --mark2:rgba(232,184,75,.55); --markfaint:rgba(232,184,75,.12);
+    --rule:rgba(232,184,75,.22);
+    --sky1:#0F0714; --sky2:#301A3A; --mist:rgba(210,170,220,.16);
+    --glow:rgba(150,90,170,.3); --glow2:rgba(232,184,75,.08); --glow-rev:rgba(232,184,75,.18);
+    --ground:#0A0509; --ground-ink:#F5E8ED;
+    --spell1:#2A0E1F; --spell2:#5A1638;
+    --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='100' viewBox='0 0 92 100'%3E%3Cpath fill='%232A1420' d='M28 100V38h36v62zM20 100V54h6v46zM66 100V54h6v46z'/%3E%3Cpath fill='%232A1420' d='M18 54h56v8H18z'/%3E%3Cpath fill='%232A1420' d='M24 38 46 10 68 38z'/%3E%3Cpath fill='%232A1420' d='M36 62v38h20V62a10 10 0 0 0-20 0z'/%3E%3Crect x='27' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='35' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='43' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='51' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='59' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='40' y='18' width='12' height='16' rx='6' fill='%23E8B84B'/%3E%3Crect x='24' y='70' width='7' height='10' rx='1.5' fill='%23E8B84B'/%3E%3Crect x='61' y='70' width='7' height='10' rx='1.5' fill='%23E8B84B'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%23241226' d='M0 100V64l60-18 60 14 70-22 80 20 70-16 90 24 80-18 70 16 90-20 80 18 70-14 90 20 80-16v72Z'/%3E%3Cpath fill='%23120912' d='M0 100V82l50-10 60 12 70-14 60 10 80-16 70 14 90-12 70 10 80-14 60 12 90-10 70 8v98Z'/%3E%3C/svg%3E");
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+    --bg:#160B12; --panel:#221320; --panel2:#2B1828; --ink:#F5E8ED; --muted:#C9A8B8; --line:#452A42; --line2:#63405C;
+    --accent:#E8B84B; --accent-ink:#241400; --hl:rgba(232,184,75,.16);
+    --gold:#E8B84B; --goldbg:#332408; --lightning:#E8B84B; --lightning-ink:#241400;
+    --blood:#FF7A85; --ok:#6FD6A6; --teal:#6DD3DE; --amber:#FFAE6B; --onfill:#160B12; --violet:#C9A0E8;
+    --mark:rgba(232,184,75,.32); --mark2:rgba(232,184,75,.55); --markfaint:rgba(232,184,75,.12);
+    --rule:rgba(232,184,75,.22);
+    --sky1:#0F0714; --sky2:#301A3A; --mist:rgba(210,170,220,.16);
+    --glow:rgba(150,90,170,.3); --glow2:rgba(232,184,75,.08); --glow-rev:rgba(232,184,75,.18);
+    --ground:#0A0509; --ground-ink:#F5E8ED;
+    --spell1:#2A0E1F; --spell2:#5A1638;
+    --castle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='100' viewBox='0 0 92 100'%3E%3Cpath fill='%232A1420' d='M28 100V38h36v62zM20 100V54h6v46zM66 100V54h6v46z'/%3E%3Cpath fill='%232A1420' d='M18 54h56v8H18z'/%3E%3Cpath fill='%232A1420' d='M24 38 46 10 68 38z'/%3E%3Cpath fill='%232A1420' d='M36 62v38h20V62a10 10 0 0 0-20 0z'/%3E%3Crect x='27' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='35' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='43' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='51' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='59' y='58' width='3' height='10' fill='%232A1420'/%3E%3Crect x='40' y='18' width='12' height='16' rx='6' fill='%23E8B84B'/%3E%3Crect x='24' y='70' width='7' height='10' rx='1.5' fill='%23E8B84B'/%3E%3Crect x='61' y='70' width='7' height='10' rx='1.5' fill='%23E8B84B'/%3E%3C/svg%3E"); --hills:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' viewBox='0 0 1200 100' preserveAspectRatio='none'%3E%3Cpath fill='%23241226' d='M0 100V64l60-18 60 14 70-22 80 20 70-16 90 24 80-18 70 16 90-20 80 18 70-14 90 20 80-16v72Z'/%3E%3Cpath fill='%23120912' d='M0 100V82l50-10 60 12 70-14 60 10 80-16 70 14 90-12 70 10 80-14 60 12 90-10 70 8v98Z'/%3E%3C/svg%3E");
+    color-scheme:dark;
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px);font-size:calc(clamp(16px,1.05vw,24px) * var(--scale,1))}
+body{
+  height:100%;margin:0;color:var(--ink);
+  font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:1rem;line-height:1.4;
+  background:
+    radial-gradient(70rem 30rem at 92% -6%, var(--glow), transparent 65%),
+    radial-gradient(60rem 28rem at 0% 108%, var(--glow2), transparent 60%),
+    var(--bg);
+}
+body:has(.revise){background:radial-gradient(70rem 30rem at 92% -6%,var(--glow-rev),transparent 65%),radial-gradient(60rem 28rem at 0% 108%,var(--glow2),transparent 60%),var(--bg)}
+::selection{background:var(--lightning);color:var(--lightning-ink)}
+button{font:inherit;color:inherit;cursor:pointer;transition:transform .09s ease,box-shadow .09s ease,background-color .15s ease,border-color .15s ease}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:Literata,Georgia,"Times New Roman",serif}
+.pane{scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+#app{height:100%;display:flex;flex-direction:column}
+
+/* shared: icons drawn with masks so they take theme colours */
+.brand b::before,.head h2::before,.track::before,.word::before,.idea b::before,#timer::before{
+  content:"";display:inline-block;flex:none;
+  -webkit-mask:var(--ico,none) center/contain no-repeat;mask:var(--ico,none) center/contain no-repeat;
+}
+
+/* ---------- filter chips ---------- */
+.filters{display:flex;align-items:center;flex-wrap:wrap;gap:.45rem;padding:.7rem 1.3rem .1rem}
+.filters[hidden]{display:none}
+.fl{color:var(--muted);margin-right:.3rem}
+.chip{
+  --c:var(--ink);display:inline-flex;align-items:center;gap:.4rem;min-height:2.45rem;padding:.25rem .8rem;
+  background:var(--panel);border:2px solid var(--line);border-radius:999px;font-size:.95rem;box-shadow:0 3px 0 var(--line);
+}
+.chip .dot{width:.75rem;height:.75rem;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px var(--panel),0 0 0 3px var(--c)}
+.chip:hover{transform:translateY(-1px);border-color:var(--c)}
+.chip:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line)}
+.chip.on{border-color:var(--c);background:var(--hl);background:color-mix(in srgb,var(--c) 20%,var(--panel));font-weight:700;box-shadow:0 3px 0 var(--c)}
+.tg-fate{--c:var(--violet)} .tg-conflict{--c:var(--blood)} .tg-family{--c:var(--amber)} .tg-love{--c:var(--rose)} .tg-language{--c:var(--muted)}
+.tg-appearance{--c:var(--gold)} .tg-irony{--c:var(--sky)} .tg-context{--c:var(--ok)} .tg-ahead{--c:var(--teal)}
+
+/* =========================================================
+   THE SCRIPT (verse, speakers, annotations)
+   ========================================================= */
+.sp{
+  margin-top:1.1rem;padding-left:3rem;font-weight:700;color:var(--accent);font-size:1.1rem;
+}
+.sp::before{content:"";display:inline-block;width:.6rem;height:.6rem;margin-right:.55rem;border-radius:50%;background:var(--lightning);box-shadow:0 0 0 2px var(--accent);vertical-align:.08em}
+.stg,.gapline{padding-left:3rem;font-style:italic;color:var(--muted);font-family:Literata,Georgia,serif;font-size:1.25rem;margin:.5rem 0}
+.gapline{margin:1rem 0;border-top:2px dotted var(--line2);border-bottom:2px dotted var(--line2);padding-top:.6rem;padding-bottom:.6rem}
+.ln{display:grid;grid-template-columns:3rem 1fr;align-items:baseline}
+.ln .num{color:var(--muted);font-size:.85rem;text-align:right;padding-right:1.1rem;user-select:none;font-variant-numeric:tabular-nums}
+.ln .tx{font-family:Literata,Georgia,"Times New Roman",serif;font-size:1.6rem;line-height:1.5;text-wrap:pretty}
+.sd{font-style:italic;color:var(--muted);font-size:.85em}
+.gl{
+  grid-column:2;font-family:"Atkinson Hyperlegible",system-ui,sans-serif;font-size:.98rem;line-height:1.4;color:var(--muted);
+  margin:.15rem 0 .7rem;padding:.35rem .7rem;border-left:3px solid var(--line2);background:var(--panel2,transparent);border-radius:0 6px 6px 0;
+}
+.glab{display:block;font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);opacity:.7;margin-bottom:.1rem}
+body.focus .gl{display:none}
+.foot{margin-top:1.5rem;color:var(--muted);font-size:.85rem;padding-left:3rem}
+
+/* annotated phrases: highlighter pen + underline */
+.ann{
+  cursor:pointer;border-radius:4px;padding:.02em .14em;
+  background:linear-gradient(transparent 52%,var(--mark) 52%);
+  text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:5px;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-color .15s ease,box-shadow .15s ease;
+}
+.ann:hover{background:var(--mark2)}
+.ann.on{background:var(--mark2);box-shadow:0 0 0 3px var(--accent);text-decoration-color:transparent}
+.ann.dim{pointer-events:none;background:none;text-decoration-color:transparent}
+.ln.rng{cursor:pointer}
+.ln.rng .tx{
+  border-left:7px solid var(--lightning);padding-left:.75rem;margin-left:-.85rem;border-radius:0 8px 8px 0;
+  background:linear-gradient(90deg,var(--markfaint),transparent 80%);
+  box-shadow:inset 3px 0 0 var(--accent);transition:background-color .15s ease;
+}
+.ln.rng:hover .tx{background:linear-gradient(90deg,var(--mark),transparent 90%)}
+.ln.rng.on .tx{background:linear-gradient(90deg,var(--mark2),var(--markfaint) 92%);border-left-width:11px;margin-left:-1rem;padding-left:.8rem}
+.ln.rng.dim{pointer-events:none}
+.ln.rng.dim .tx{border-left-color:transparent;background:none;box-shadow:none}
+
+/* =========================================================
+   SIDE PANEL: notes, prompts, tiers
+   ========================================================= */
+.side h3{
+  font-family:"Cormorant Garamond",Literata,Georgia,serif;font-weight:800;font-size:2.05rem;line-height:1.15;margin:.2rem 0 .55rem;letter-spacing:.005em;
+}
+.side p{font-size:1.15rem;line-height:1.45;margin:.15rem 0 .45rem}
+.side .lead{font-size:1.3rem}
+.side .hint{color:var(--muted)}
+.lab{
+  display:inline-block;margin-top:.9rem;padding:.1rem .8rem;border-radius:999px;background:var(--hl);color:var(--accent);
+  font-weight:700;font-size:.95rem;
+}
+.q{
+  position:relative;margin:.2rem 0 1rem;padding:.7rem 1rem .7rem 3.2rem;border-radius:12px;
+  background:var(--panel);border:2px solid var(--line);
+  font-family:Literata,Georgia,serif;font-style:italic;font-size:1.2rem;line-height:1.5;
+}
+.q::before{
+  content:"\201C";position:absolute;left:.6rem;top:-.05rem;font-family:"Cormorant Garamond",Literata,Georgia,serif;font-style:normal;font-weight:800;
+  font-size:3.6rem;line-height:1;color:var(--lightning);text-shadow:0 2px 0 rgba(16,21,29,.35);
+}
+.ptop{display:flex;justify-content:space-between;align-items:center;color:var(--muted);margin-bottom:.5rem}
+.mini{min-height:2.4rem;padding:.15rem .85rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.mini:hover{border-color:var(--accent)}
+.mini:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+
+/* "Ask the class" speech bubble */
+.ask{
+  position:relative;margin:1.4rem 0 .9rem;padding:.7rem 1.1rem;border-radius:16px;
+  background:var(--goldbg);border:3px solid var(--lightning);
+}
+.ask::after{
+  content:"";position:absolute;left:2rem;bottom:-.95rem;width:1.3rem;height:1.3rem;transform:rotate(45deg);
+  background:var(--goldbg);border-right:3px solid var(--lightning);border-bottom:3px solid var(--lightning);border-bottom-right-radius:5px;
+}
+.ask b{color:var(--gold);font-size:.95rem}
+.ask p{margin:.2rem 0 0;font-weight:700;font-size:1.25rem}
+
+.tierbtns{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+.ghost{
+  min-height:2.75rem;padding:.3rem 1.05rem;margin-top:.6rem;background:var(--panel);border:2px solid var(--accent);border-radius:12px;box-shadow:0 4px 0 var(--accent);color:var(--ink);
+}
+.ghost:hover{transform:translateY(-1px);background:var(--hl)}
+.ghost:active{transform:translateY(3px);box-shadow:0 1px 0 var(--accent)}
+.small{min-height:2.45rem;font-size:.95rem;margin-top:0}
+.tierbtns .ghost{margin-top:0}
+button[data-t="sup"]{border-color:var(--teal);box-shadow:0 4px 0 var(--teal)}
+button[data-t="sup"]:active{box-shadow:0 1px 0 var(--teal)}
+button[data-t="str"]{border-color:var(--gold);box-shadow:0 4px 0 var(--gold);background:var(--goldbg)}
+button[data-t="str"]:active{box-shadow:0 1px 0 var(--gold)}
+.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 4px 0 rgba(16,21,29,.45)}
+.primary:hover{background:var(--accent)}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;margin:.5rem 0 .9rem}
+.tier{margin-top:.8rem;padding:.55rem .95rem;border-radius:12px;border:2px solid var(--teal);background:var(--panel);scroll-margin-bottom:5rem;animation:rise .25s ease-out both}
+.tier.str{border-color:var(--gold);background:var(--goldbg)}
+.tier[hidden]{display:none}
+.tier b{display:block;color:var(--muted);font-size:.9rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1rem}
+.tagrow .chip{min-height:0;padding:.12rem .75rem;font-size:.85rem;cursor:default;border-color:var(--c);box-shadow:none}
+.tagrow .chip:hover{transform:none}
+.notenav{
+  position:sticky;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-top:1rem;padding:.75rem 0 .25rem;
+  border-top:2px solid var(--line);background:var(--panel2);
+}
+.notenav button{min-height:2.75rem;padding:.3rem 1.05rem;background:var(--panel);border:2px solid var(--accent);border-radius:12px;box-shadow:0 4px 0 var(--accent)}
+.notenav button:hover{background:var(--hl);transform:translateY(-1px)}
+.notenav button:active{transform:translateY(3px);box-shadow:0 1px 0 var(--accent)}
+
+.think{border:3px solid var(--teal);border-radius:16px;padding:.7rem 1.1rem;margin:1rem 0;background:var(--panel)}
+.think b{color:var(--teal)}
+.think p{margin:.2rem 0 .4rem}
+
+/* =========================================================
+   AIMS SCREEN: learning intention, success criteria, word, path
+   ========================================================= */
+.li{margin:.8rem 0;padding:.3rem 0 .3rem 1.1rem;border-left:8px solid var(--lightning)}
+.li p{font-family:Literata,Georgia,serif;font-size:1.4rem;line-height:1.4;margin:.3rem 0 0}
+.sc{margin:.9rem 0}
+.sc ul{list-style:none;margin:.5rem 0 0;padding:0}
+.sc li{position:relative;padding-left:2.4rem;margin:.4rem 0;font-size:1.22rem;line-height:1.35}
+.sc li::before{content:"";position:absolute;left:0;top:.18em;width:1.35rem;height:1.35rem;border:3px solid var(--accent);border-radius:7px;background:var(--panel)}
+.stretchsc{
+  margin:.9rem 0 0;padding:.55rem 1rem;border-radius:12px;background:var(--goldbg);border:2px solid var(--lightning);border-left-width:8px;font-size:1.2rem;
+}
+.word{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z'/%3E%3C/svg%3E");
+  position:relative;margin:.9rem 0;padding:.7rem 1.3rem .7rem 3.6rem;border-radius:16px;font-size:1.15rem;line-height:1.4;
+  background:linear-gradient(135deg,var(--spell1),var(--spell2));color:#FFFFFF;border:3px solid var(--lightning);
+  box-shadow:0 5px 0 rgba(16,21,29,.4);
+}
+.word::before{position:absolute;left:1rem;top:1rem;width:1.7rem;height:1.7rem;background:var(--lightning)}
+.word b{color:var(--lightning)}
+.path{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem .2rem;padding:0;margin:.6rem 0 0;counter-reset:step}
+.path li{
+  counter-increment:step;display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .9rem .35rem .4rem;border-radius:999px;
+  background:var(--panel);border:2px solid var(--line2);font-size:1rem;
+}
+.path li::before{
+  content:counter(step);display:inline-grid;place-items:center;flex:none;width:1.7rem;height:1.7rem;border-radius:50%;
+  background:var(--line2);color:var(--ink);font-weight:700;font-size:.85rem;
+}
+.path li:first-child{border-color:var(--accent);font-weight:700}
+.path li:first-child::before{background:var(--accent);color:var(--accent-ink)}
+.path li:last-child{border-color:var(--lightning);background:var(--goldbg)}
+.path li:last-child::before{background:var(--lightning);color:var(--lightning-ink)}
+.path li+li{margin-left:1.5rem;position:relative}
+.path li+li::after{content:"";position:absolute;left:-1.3rem;top:50%;width:1.1rem;height:3px;background:repeating-linear-gradient(90deg,var(--line2) 0 5px,transparent 5px 9px)}
+
+/* context: mystery cards */
+.fact.card{
+  position:relative;margin:.75rem 0;padding:.8rem 1.1rem .8rem 4.3rem;cursor:pointer;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);
+}
+.fact.card::before{
+  content:"?";position:absolute;left:1rem;top:.9rem;display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;
+  background:var(--accent);color:var(--accent-ink);font-family:"Cormorant Garamond",Literata,Georgia,serif;font-weight:800;font-size:1.6rem;line-height:1;
+  box-shadow:0 3px 0 rgba(16,21,29,.4);
+}
+.fact.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.fact.card:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.fact h3{margin:0 0 .2rem;font-size:1.25rem}
+.fact .prompt{font-weight:700;color:var(--accent);font-size:1.25rem;margin:.1rem 0 0}
+.fact p{margin:0}
+.fact .txt{display:none;margin-top:.55rem;font-size:1.25rem;line-height:1.5}
+.fact .tap{display:block;color:var(--muted);font-size:.9rem;margin-top:.3rem}
+.fact.open{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.fact.open::before{content:"\2713";background:var(--ok);font-family:Atkinson Hyperlegible,system-ui,sans-serif;font-size:1.4rem}
+.fact.open .txt{display:block;animation:rise .25s ease-out both}
+.fact.open .tap{display:none}
+.idea{padding:.6rem 0;border-bottom:2px dotted var(--line2)}
+.idea:last-child{border-bottom:0}
+.idea b{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E");display:flex;align-items:center;gap:.5rem;font-family:Literata,Georgia,serif;font-size:1.3rem}
+.idea b::before{width:.6em;height:.85em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.45))}
+.idea p{margin:0}
+
+/* =========================================================
+   GAP-FILLS, WORD BANK, QUICK CHECK
+   ========================================================= */
+.cloze{font-family:Literata,Georgia,serif;font-size:1.7rem;line-height:2.3;margin:0;max-width:44em;text-wrap:pretty}
+.gap{
+  display:inline-block;min-width:6.5em;text-align:center;margin:0 .1em;padding:0 .4em;line-height:1.6;cursor:pointer;vertical-align:baseline;
+  background:var(--hl);border:2px dashed var(--accent);border-radius:10px;
+}
+.gap:hover{background:var(--mark)}
+.gap sup{
+  display:inline-grid;place-items:center;width:1.5em;height:1.5em;margin-right:.35em;border-radius:50%;vertical-align:.15em;
+  background:var(--accent);color:var(--accent-ink);font-family:"Atkinson Hyperlegible",sans-serif;font-size:.55em;font-weight:700;
+}
+.gap .ans{visibility:hidden;font-family:"Atkinson Hyperlegible",sans-serif;font-weight:700;font-size:.85em;color:var(--ok)}
+.gap.open{background:transparent;border-style:solid;border-color:var(--ok);animation:pop .25s ease-out both}
+.gap.open .ans{visibility:visible}
+@keyframes pop{from{transform:scale(.9)}60%{transform:scale(1.06)}to{transform:scale(1)}}
+.bank{display:flex;flex-wrap:wrap;gap:.55rem;margin:.5rem 0 1rem}
+.bank span{padding:.3rem .9rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2);font-size:1.15rem}
+.track{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E");
+  position:relative;margin-top:1rem;padding:.8rem 1.1rem .8rem 3.4rem;border-radius:16px;background:var(--goldbg);border:3px solid var(--lightning);
+}
+.track::before{position:absolute;left:1rem;top:.9rem;width:1.3rem;height:1.8rem;background:var(--gold)}
+.track p{margin:0;font-size:1.15rem}
+.hinge{margin-top:1.3rem;padding-top:.6rem;border-top:2px dotted var(--line2)}
+.hq{font-weight:700}
+.opt{
+  display:block;width:100%;text-align:left;margin:.5rem 0;padding:.55rem .95rem;min-height:2.9rem;font-size:1.05rem;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 4px 0 var(--line2);
+}
+.opt:hover:not(:disabled){transform:translateY(-1px);border-color:var(--accent)}
+.opt:active:not(:disabled){transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
+.opt.right{border-color:var(--ok);background:var(--hl);background:color-mix(in srgb,var(--ok) 18%,var(--panel));box-shadow:0 4px 0 var(--ok);font-weight:700}
+.opt.right::before{content:"\2713  "}
+.opt.wrong{border-color:var(--blood);text-decoration:line-through;box-shadow:0 4px 0 var(--blood)}
+.opt.wrong::before{content:"\2717  ";text-decoration:none;display:inline-block}
+.hres{margin-top:.6rem;font-size:1.1rem}
+
+/* exit ticket + self rating */
+.qa{position:relative;margin:.8rem 0;padding:.75rem 1.1rem;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);cursor:pointer}
+.qa:hover{transform:translateY(-2px);border-color:var(--accent)}
+.qa .lv{display:inline-block;margin-bottom:.35rem;padding:.02rem .75rem;border-radius:999px;background:var(--teal);color:var(--onfill);font-size:.8rem;font-weight:700}
+.qa.stretch .lv{background:var(--lightning);color:var(--lightning-ink)}
+.qa .qq{font-weight:700;font-size:1.2rem}
+.qa .aa{margin-top:.4rem;font-size:1.2rem;visibility:hidden;color:var(--ok);font-weight:700;height:0;overflow:hidden}
+.qa.open{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.qa.open .aa{visibility:visible;height:auto;animation:rise .25s ease-out both}
+.rate{padding:.65rem 0;border-bottom:2px dotted var(--line2)}
+.rate:last-child{border-bottom:0}
+.rate p{margin:0 0 .45rem;font-size:1.05rem}
+.rbtns{display:flex;gap:.45rem;flex-wrap:wrap}
+.rb{min-height:2.5rem;padding:.15rem .9rem;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.rb:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.rb[data-rate$=":0"]{border-color:var(--blood);box-shadow:0 3px 0 var(--blood)}
+.rb[data-rate$=":1"]{border-color:var(--amber);box-shadow:0 3px 0 var(--amber)}
+.rb[data-rate$=":2"]{border-color:var(--ok);box-shadow:0 3px 0 var(--ok)}
+.rb.on{color:var(--onfill);font-weight:700;animation:pop .25s ease-out both}
+.rb.on::before{content:"\2713  "}
+.rb[data-rate$=":0"].on{background:var(--blood)}
+.rb[data-rate$=":1"].on{background:var(--amber)}
+.rb[data-rate$=":2"].on{background:var(--ok)}
+
+/* timer */
+#timer{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E");
+  position:fixed;right:1.3rem;bottom:6.2rem;z-index:6;display:flex;align-items:center;gap:.8rem;padding:.5rem 1rem;border-radius:16px;
+  background:var(--ground);color:var(--lightning);border:3px solid var(--lightning);box-shadow:0 8px 0 rgba(0,0,0,.35),0 0 30px rgba(245,192,46,.35);
+  font-size:2.1rem;font-weight:700;font-variant-numeric:tabular-nums;
+}
+#timer::before{width:.6em;height:.85em;background:var(--lightning)}
+#timer[hidden]{display:none}
+#timer.done{background:var(--blood);color:var(--onfill);border-color:var(--onfill)}
+#timer.done::before{background:var(--onfill)}
+#timer button{font-size:1rem;min-height:2.4rem;padding:.15rem .8rem;border:2px solid currentColor;border-radius:10px;background:transparent;color:inherit}
+
+/* =========================================================
+   REVISE MODE (home study)
+   ========================================================= */
+.pane.wide.revise{
+  background:var(--panel);border:2px solid var(--line2);border-radius:16px;padding:1.2rem 1.7rem 2rem;
+  box-shadow:0 5px 0 var(--line2),0 26px 40px -26px rgba(8,10,25,.5);animation:rise .35s ease-out both;
+}
+.revise h2{margin:0;font-size:2rem;font-family:"Cormorant Garamond",Literata,Georgia,serif;font-weight:850}
+.revise .intro{margin:.3rem 0 .7rem;color:var(--muted);font-size:1.15rem}
+.revise .head::after{display:none}
+.tabs{display:flex;gap:.6rem;flex-wrap:wrap;margin:.7rem 0 1.1rem}
+.tab{min-height:2.9rem;padding:.3rem 1.2rem;background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 4px 0 var(--line2)}
+.tab:hover{transform:translateY(-1px);border-color:var(--accent)}
+.tab:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
+.tab.on{background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);font-weight:700;box-shadow:0 4px 0 rgba(16,21,29,.4)}
+.qgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(22rem,1fr));gap:1.1rem;margin-top:.9rem;align-items:start}
+.qcard{
+  position:relative;padding:1rem 1.1rem 1rem;cursor:pointer;background:var(--panel2);border:2px solid var(--line2);border-top:8px solid var(--accent);border-radius:16px;box-shadow:0 4px 0 var(--line2);
+}
+.qcard::after{
+  content:"";position:absolute;right:.9rem;top:.7rem;width:1rem;height:1.4rem;background:var(--lightning);opacity:.9;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+.qcard:hover{transform:translateY(-3px);border-color:var(--accent)}
+.qcard:active{transform:translateY(1px)}
+.qcard .qt{font-family:Literata,Georgia,serif;font-style:italic;font-size:1.25rem;line-height:1.45;margin:0 1.4rem .4rem 0}
+.qcard .qr{color:var(--muted);font-size:.9rem;margin:0}
+.qcard .qb{display:none;margin-top:.8rem;padding-top:.7rem;border-top:2px dotted var(--line2)}
+.qcard .qb p{margin:.25rem 0 .55rem;font-size:1.05rem}
+.qcard.open{border-color:var(--ok);border-top-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.qcard.open .qb{display:block;animation:rise .25s ease-out both}
+.qcard .tagrow{margin-top:.5rem}
+.qz{max-width:46rem}
+.qz .qn{color:var(--muted)}
+.qz h3{font-size:1.55rem;margin:.35rem 0 .7rem}
+.qz .why{margin-top:.7rem;font-size:1.1rem}
+.score{font-family:"Cormorant Garamond",Literata,Georgia,serif;font-size:3.4rem;font-weight:850;line-height:1;color:var(--gold)}
+.gapcard{max-width:54rem;margin:1rem 0;padding:.9rem 1.2rem 1rem;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2)}
+.gapcard h3{margin:0 0 .35rem;font-size:1.2rem}
+.gapcard .cloze{font-size:1.35rem;line-height:2.15}
+.gapcard .stretchsc{font-size:1.1rem}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+}
+@media (forced-colors:active){
+  .ann{text-decoration-color:Highlight}
+  .gap,.chip,.opt,.btn,.pill{border-color:ButtonText}
+}
+
+/* =========================================================
+   LESSONS 3-5: practice questions, assessment, spot the irony, battle
+   ========================================================= */
+:root{--rose:#C23B6B;--sky:#2F6FA8}
+:root[data-theme="dark"]{--rose:#FF9EC4;--sky:#7EC8FF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rose:#FF9EC4;--sky:#7EC8FF}}
+.tg-love{--c:var(--rose)}
+.opts{margin:.5rem 0 0;padding-left:1.3rem;font-weight:400;font-size:1.05rem}
+.opts li{margin:.25rem 0}
+.opts-a{list-style:upper-alpha}
+.mt{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:.5rem;font-weight:400}
+.mt ul{margin:0;padding-left:1.1rem;font-size:1.05rem}
+.qa .aa .ms{margin:.4rem 0 0;padding-left:1.2rem;font-weight:400;color:var(--ink);font-size:1rem}
+.spotitem{margin:.7rem 0;padding:.7rem 1.1rem;background:var(--panel2);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);cursor:pointer}
+.spotitem:hover{border-color:var(--accent);transform:translateY(-1px)}
+.spotitem.picked{border-color:var(--accent);background:var(--hl);box-shadow:0 4px 0 var(--accent)}
+.spotitem .sq{margin:0;font-family:Literata,Georgia,serif;font-size:1.3rem;line-height:1.45}
+.spotitem .sw{margin:.4rem 0 0;font-size:1.05rem}
+.spotitem.ok{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.spotitem.ok .sw::before{content:"\2713  Yes, dramatic irony. ";font-weight:700;color:var(--ok)}
+.spotitem.miss{border-color:var(--amber);box-shadow:0 4px 0 var(--amber)}
+.spotitem.miss .sw::before{content:"Missed: this is dramatic irony. ";font-weight:700;color:var(--amber)}
+.spotitem.bad{border-color:var(--blood);box-shadow:0 4px 0 var(--blood)}
+.spotitem.bad .sw::before{content:"\2717  Not this one. ";font-weight:700;color:var(--blood)}
+.spotitem.none .sw::before{content:"\2713  Correct to leave it. ";font-weight:700;color:var(--muted)}
+.bcard{max-width:46rem}
+.meter{height:2.2rem;border:3px solid var(--line2);border-radius:999px;background:var(--panel);overflow:hidden;margin:.5rem 0}
+.meter .bar{height:100%;background:linear-gradient(90deg,var(--blood),var(--lightning));transition:width .5s ease}
+.pane.assess{display:grid;place-content:center;text-align:center;gap:1rem;min-height:60vh}
+.pane.assess h2{font-size:3rem;display:block;margin:0}
+.pane.assess h2::before{display:none}
+.pane.assess .sub{font-size:1.6rem;margin:0}
+.pane.assess .row{justify-content:center}
+.big{min-height:4rem;padding:.5rem 1.6rem;font-size:1.3rem}
+body:has(.pane.assess) #timer{left:50%;right:auto;top:78%;bottom:auto;transform:translate(-50%,-50%);font-size:6rem;padding:.6rem 2.2rem;border-radius:26px}
+body:has(.pane.assess) #timer button{font-size:1.2rem}
+
+/* =========================================================
+   V2 LAYOUT: one clear focus, everything else on demand
+   ========================================================= */
+[hidden]{display:none !important}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+#panel>*{animation:rise .25s ease-out both}
+.pane.wide{grid-column:1 / -1;overflow:auto}
+
+/* small icons that take the theme colour */
+.ic{display:inline-block;flex:none;width:1.1em;height:1.1em;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat}
+.ic-focus{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5'/%3E%3C/svg%3E")}
+.ic-close{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M5 5l14 14M19 5L5 19'/%3E%3C/svg%3E")}
+.ic-wide{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4'/%3E%3C/svg%3E")}
+.ic-full{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='16' rx='2.5'/%3E%3Cpath d='M9 4v16'/%3E%3C/svg%3E")}
+.ic-back{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 5l-7 7 7 7'/%3E%3C/svg%3E")}
+.ic-next{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 5l7 7-7 7'/%3E%3C/svg%3E")}
+.car{display:inline-block;width:.6em;height:.6em;margin-left:.5rem;border-right:3px solid currentColor;border-bottom:3px solid currentColor;transform:translateY(-.15em) rotate(45deg)}
+
+/* ---------- top bar: where am I, what is next ---------- */
+.topbar{
+  position:relative;z-index:8;display:flex;align-items:center;gap:1rem;padding:.55rem 1.1rem .85rem;isolation:isolate;
+  background:linear-gradient(180deg,var(--sky1) 0%,var(--sky2) 100%);
+  max-height:12rem;transition:opacity .5s ease,max-height .6s ease,padding .6s ease;
+}
+.topbar::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+  background-image:var(--castle),var(--hills),radial-gradient(26rem 4rem at 30% 100%,var(--mist),transparent 72%);
+  background-repeat:no-repeat;background-size:auto 100%,100% 34%,220% 100%;background-position:80% calc(100% - 6px),left bottom,0 100%;
+}
+.topbar::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:6px;
+  background:
+    repeating-linear-gradient(90deg,transparent 0 9px,rgba(245,192,46,.9) 9px 10px,transparent 10px 34px),
+    repeating-linear-gradient(90deg,rgba(168,29,42,.95) 0 4px,transparent 4px 34px),
+    repeating-linear-gradient(90deg,rgba(7,16,30,.75) 0 14px,transparent 14px 28px),
+    #1D5B45;
+}
+.b-left{display:flex;align-items:center;gap:.8rem;flex:none}
+.b-mid{flex:1;display:flex;align-items:center;justify-content:center;gap:.6rem;min-width:0}
+.b-right{display:flex;gap:.5rem;flex:none}
+.brand{display:flex;align-items:center;gap:.5rem}
+.brand b{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E");
+  display:inline-flex;align-items:center;gap:.3rem;font-family:"Cormorant Garamond",Literata,Georgia,serif;font-weight:850;font-size:1.9rem;line-height:1;
+  color:var(--ink);text-shadow:0 0 18px var(--glow);
+}
+.brand b::before{width:.6em;height:.9em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.5))}
+.brand span{background:var(--lightning);color:var(--lightning-ink);font-weight:700;font-size:.8rem;padding:.1rem .65rem;border-radius:999px;box-shadow:0 2px 0 rgba(16,21,29,.35);white-space:nowrap}
+.sbtn{
+  min-height:2.6rem;padding:.25rem .95rem;display:inline-flex;align-items:center;font-weight:700;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 3px 0 var(--line2);
+}
+.sbtn:hover{transform:translateY(-1px)}
+.sbtn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.sbtn.lesson{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 3px 0 rgba(16,21,29,.45);min-width:8.2rem;justify-content:space-between}
+
+/* popovers (lesson menu, timer, display) */
+.popwrap{position:relative}
+.pop{
+  position:absolute;top:calc(100% + .55rem);z-index:20;min-width:13rem;padding:.5rem;display:flex;flex-direction:column;gap:.4rem;
+  background:var(--panel);border:2px solid var(--line2);border-radius:14px;box-shadow:0 16px 34px -10px rgba(8,10,25,.5);animation:rise .2s ease-out both;
+}
+#lmenu{left:0;min-width:23rem}
+#tmenu,#omenu{right:0}
+.pop button{min-height:2.6rem;padding:.2rem .9rem;text-align:left;background:var(--panel2);border:2px solid var(--line);border-radius:10px}
+.pop button:hover{border-color:var(--accent);background:var(--hl)}
+.lm{display:flex !important;flex-direction:column;align-items:flex-start}
+.lm b{font-size:1.05rem}.lm small{color:var(--muted);font-size:.85rem}
+.lm.on{background:var(--accent) !important;color:var(--accent-ink);border-color:var(--accent) !important}
+.lm.on small{color:var(--accent-ink);opacity:.85}
+.lm.rev.on{background:var(--lightning) !important;color:var(--lightning-ink);border-color:var(--lightning) !important}
+.lm.rev.on small{color:var(--lightning-ink)}
+.orow{display:flex;align-items:center;gap:.4rem}
+.orow span{flex:1;color:var(--muted);padding-right:.6rem}
+.orow button{text-align:center}
+
+/* navigation: back, the path, next */
+.btn{
+  flex:none;white-space:nowrap;min-height:2.85rem;padding:.3rem 1.1rem;display:inline-flex;align-items:center;gap:.5rem;font-weight:700;
+  background:var(--panel);border:2px solid var(--line2);border-radius:12px;box-shadow:0 4px 0 var(--line2);
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
+.btn.primary{background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 4px 0 rgba(16,21,29,.5)}
+.btn:disabled{opacity:.4;cursor:default;box-shadow:none;transform:none}
+.btn.back{padding:.3rem .9rem}
+.steps{display:flex;align-items:center;list-style:none;margin:0;padding:0;min-width:0;flex:0 1 auto}
+.steps li{display:flex;align-items:center}
+.steps li+li::before{content:"";width:.7rem;height:3px;border-radius:2px;background:var(--line2);opacity:.7}
+.steps li.done+li::before,.steps li.done + li::before{background:var(--accent);opacity:1}
+.stp{
+  display:inline-flex;align-items:center;gap:.4rem;min-height:2.3rem;padding:.12rem;background:var(--panel);
+  border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2);
+}
+.stp:hover{transform:translateY(-1px)}
+.stp .pn{display:inline-grid;place-items:center;width:1.7rem;height:1.7rem;border-radius:50%;font-size:.82rem;font-weight:700;color:#fff;background:var(--line2)}
+.stp .pl{display:none;font-weight:700;padding-right:.7rem;white-space:nowrap}
+.stp.aims .pn{background:#8A5F00}
+.stp.context .pn,.stp.practice .pn{background:var(--teal);color:var(--onfill)}
+.stp.extract .pn{background:var(--accent);color:var(--accent-ink)}
+.stp.link .pn{background:#5F6C80}
+.stp.plenary .pn,.stp.assess .pn{background:var(--blood);color:var(--onfill)}
+.stp.spot .pn,.stp.battle .pn{background:var(--rose);color:var(--onfill)}
+.stp.done{border-color:var(--accent);opacity:.85}
+.stp.on{background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 3px 0 rgba(16,21,29,.5);opacity:1}
+.stp.on .pl{display:inline}
+.stp.on .pn{background:var(--lightning-ink);color:var(--lightning)}
+.tabs2{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center}
+
+/* ---------- the stage: one focus, one optional drawer ---------- */
+.canvas{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);gap:1.1rem;padding:1rem 1.2rem 1.1rem;transition:padding .6s ease}
+.canvas.has-drawer{grid-template-columns:minmax(0,1.25fr) minmax(22rem,.85fr)}
+.canvas.has-drawer.wide{grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr)}
+.canvas.has-drawer.mainhidden{grid-template-columns:3.4rem minmax(0,1fr)}
+.canvas.mainhidden #mainpane{display:none}
+.railtab{
+  order:-1;writing-mode:vertical-rl;padding:1rem .3rem;font-weight:700;letter-spacing:.02em;
+  background:var(--panel);border:2px solid var(--line2);border-radius:16px;box-shadow:0 4px 0 var(--line2);
+}
+.railtab:hover{background:var(--hl)}
+.pane{min-height:0}
+.pane.main{
+  display:flex;flex-direction:column;overflow:hidden;background:var(--panel);border:2px solid var(--line2);border-radius:16px;
+  box-shadow:0 5px 0 var(--line2),0 26px 40px -26px rgba(8,10,25,.5);animation:rise .35s ease-out both;
+}
+.phead{display:flex;align-items:flex-start;justify-content:space-between;gap:.6rem 1.2rem;flex-wrap:wrap;padding:.85rem 1.5rem .7rem;border-bottom:2px solid var(--line)}
+.pt{min-width:0}
+.pt .kick{display:inline-block;background:var(--hl);color:var(--accent);font-weight:700;font-size:.88rem;padding:.1rem .8rem;border-radius:999px}
+.pt h2{
+  --ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21s-6.7-4.35-9.3-8.1C1 10.2 1.6 6.6 4.6 5 6.9 3.8 9.4 4.4 12 7c2.6-2.6 5.1-3.2 7.4-2 3 1.6 3.6 5.2 1.9 7.9C18.7 16.65 12 21 12 21z'/%3E%3C/svg%3E");
+  display:flex;align-items:center;gap:.55rem;margin:.35rem 0 0;font-size:1.6rem;line-height:1.2;font-weight:800;
+}
+.pt h2::before{content:"";display:inline-block;flex:none;width:.6em;height:.85em;background:var(--lightning);filter:drop-shadow(0 1px 0 rgba(16,21,29,.45));-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}
+.pt .sub{margin:.1rem 0 0;color:var(--muted);font-size:1.05rem}
+.ptools{display:flex;flex-wrap:wrap;gap:.45rem;justify-content:flex-end;align-items:center}
+.tb{
+  display:inline-flex;align-items:center;gap:.45rem;min-height:2.6rem;padding:.2rem .95rem;font-weight:700;font-size:.98rem;
+  background:var(--panel2);border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2);
+}
+.tb:hover{transform:translateY(-1px);border-color:var(--accent)}
+.tb:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.tb.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 3px 0 rgba(16,21,29,.45)}
+.tb.cta:not(.on){background:var(--lightning);color:var(--lightning-ink);border-color:var(--lightning);box-shadow:0 3px 0 rgba(16,21,29,.45)}
+.mhead{flex:1 1 100%;display:flex;align-items:center;gap:.8rem}
+.mhead span{color:var(--muted)}
+.mhead .meter{flex:1;max-width:26rem;margin:0;height:1.6rem}
+.pbody{flex:1;min-height:0;overflow:auto;padding:1.1rem 1.7rem 2.2rem;scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+.inner{max-width:62rem;margin:0 auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));gap:.4rem 1.2rem}
+.lines{position:relative;width:fit-content;min-width:min(100%,34rem);max-width:100%;margin:0 auto;background:linear-gradient(to right,transparent 2.55rem,var(--rule) 2.55rem,var(--rule) calc(2.55rem + 2px),transparent calc(2.55rem + 2px))}
+.foot{max-width:56rem;margin:1.6rem auto 0;padding:0;text-align:center}
+.aimsbody{max-width:58rem}
+.aimsbody{padding-top:1.2vh}
+.aimsbody .li p{font-size:2.1rem;line-height:1.35}
+.aimsbody .sc li{font-size:1.5rem;margin:.7rem 0 .7rem;padding-left:2.6rem}
+.aimsbody .sc li::before{top:.14em}
+.aimsbody .stretchsc{font-size:1.25rem}
+
+/* the drawer: notes and everything that is only sometimes needed */
+.pane.drawer{
+  display:flex;flex-direction:column;overflow:hidden;background:var(--panel2);border:2px solid var(--line);border-top:9px solid var(--accent);border-radius:16px;
+  box-shadow:0 5px 0 var(--line),0 26px 40px -26px rgba(8,10,25,.5);animation:rise .3s ease-out both;
+}
+.dhead{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.7rem 1rem .4rem 1.4rem}
+.dhead h3{margin:0;font-size:1.35rem}
+.dtools{display:flex;gap:.4rem}
+.ib{width:2.6rem;height:2.6rem;display:inline-grid;place-items:center;background:var(--panel);border:2px solid var(--line2);border-radius:10px;box-shadow:0 3px 0 var(--line2)}
+.ib:hover{border-color:var(--accent);background:var(--hl)}
+.ib:active{transform:translateY(2px);box-shadow:0 1px 0 var(--line2)}
+.dbody{flex:1;min-height:0;overflow:auto;padding:.3rem 1.4rem 1.2rem;scrollbar-color:var(--line2) transparent;scrollbar-width:thin}
+.dbody .q{margin-top:.2rem}
+.dbody .hinge{margin-top:0;padding-top:0;border-top:0}
+.dtools .tb{min-height:2.4rem;padding:.15rem .8rem;font-size:.92rem}
+.dtools .ib{width:2.4rem;height:2.4rem}
+.dtools{align-items:center}
+
+.canvas.has-drawer .phead{padding:.6rem 1.2rem .5rem;gap:.4rem .8rem}
+.canvas.has-drawer .pt h2{font-size:1.3rem;margin-top:.25rem}
+.canvas.has-drawer .pt .sub{display:none}
+.canvas.has-drawer .ptools .tb{min-height:2.3rem;padding:.12rem .8rem;font-size:.92rem}
+
+/* ---------- bottom bar: theme filters ---------- */
+.filters{
+  display:flex;align-items:center;flex-wrap:wrap;gap:.45rem;padding:.6rem 1.2rem .7rem;background:var(--panel2);border-top:2px solid var(--line);
+  max-height:12rem;transition:opacity .5s ease,max-height .6s ease,padding .6s ease;
+}
+
+.filters .chip{min-height:2.2rem;padding:.12rem .65rem;font-size:.9rem;box-shadow:0 2px 0 var(--line)}
+.filters .chip.on{box-shadow:0 2px 0 var(--c)}
+.filters .fl{margin-right:.2rem}
+
+/* timer sits above the bottom bar */
+#timer{bottom:1.2rem}
+body:has(#filters:not([hidden])) #timer{bottom:5.2rem}
+
+/* ---------- focus mode: only the extract; the rest fades away ---------- */
+#fctl{position:fixed;top:.9rem;left:1.2rem;z-index:30;display:flex;gap:.5rem;opacity:0;visibility:hidden;transition:opacity .4s ease,visibility 0s linear .4s}
+body.focus #fctl{opacity:.9;visibility:visible;transition:opacity .6s ease .45s,visibility 0s}
+body.focus #fctl:hover{opacity:1}
+#fctl button{min-height:2.6rem;padding:.2rem 1rem;display:inline-flex;align-items:center;gap:.4rem;font-weight:700;background:var(--panel);border:2px solid var(--line2);border-radius:999px;box-shadow:0 3px 0 var(--line2)}
+body.focus .topbar,body.focus .filters{opacity:0;max-height:0;padding-top:0;padding-bottom:0;overflow:hidden;pointer-events:none;border-width:0}
+body.focus .canvas{padding-top:4rem}
+body.focus .canvas.has-drawer,body.focus .canvas.has-drawer.wide,body.focus .canvas.has-drawer.mainhidden{grid-template-columns:minmax(0,1fr)}
+body.focus .pane.drawer,body.focus .railtab{display:none}
+body.focus .canvas.mainhidden #mainpane{display:flex}
+body.focus .ptools,body.focus .pt .sub,body.focus .foot{display:none}
+body.focus .phead{border-bottom-color:transparent}
+body.focus .ln .tx{font-size:1.9rem;line-height:1.55}
+body.focus .sp{font-size:1.25rem}
+body.focus .stg,body.focus .gapline{font-size:1.45rem}
+body.focus .ann{background:none;text-decoration:none;box-shadow:none;cursor:default;pointer-events:none}
+body.focus .ln.rng{cursor:default;pointer-events:none}
+body.focus .ln.rng .tx,body.focus .ln.rng.on .tx{border-left-color:transparent;background:none;box-shadow:none;margin-left:0;padding-left:0}
+
+/* ---------- responsive ---------- */
+@media (max-width:1500px){
+  .brand span{display:none}
+  .btn.back .tx{display:none}
+  .btn.back{padding:.3rem .75rem}
+  .topbar{gap:.7rem}
+}
+@media (max-width:1100px){
+  .topbar{flex-wrap:wrap;row-gap:.6rem}
+  .b-mid{order:3;flex:1 1 100%}
+  .b-right{margin-left:auto}
+  .btn .tx{display:none}
+  .btn.next .tx{display:inline}
+  .steps{flex:0 1 auto;overflow:hidden;padding:.1rem .15rem .3rem}
+  .stp{min-height:2rem;padding:.08rem}
+  .stp .pn{width:1.45rem;height:1.45rem;font-size:.75rem}
+  .stp .pl{font-size:.9rem;padding-right:.5rem}
+  .steps li+li::before{width:.35rem}
+}
+@media (max-width:900px){
+  .canvas{padding:.7rem}
+  .canvas.has-drawer,.canvas.has-drawer.wide{grid-template-columns:minmax(0,1fr)}
+  .pane.drawer{position:fixed;left:.6rem;right:.6rem;bottom:.6rem;height:64vh;z-index:15;box-shadow:0 -10px 40px rgba(8,10,25,.5),0 5px 0 var(--line)}
+  .canvas.has-drawer.mainhidden{grid-template-columns:minmax(0,1fr)}
+  .railtab{display:none !important}
+  .phead{padding:.7rem 1rem .5rem}
+  .pbody{padding:.9rem 1rem 1.6rem}
+  .cards{grid-template-columns:1fr}
+  .mt{grid-template-columns:1fr}
+  #timer{bottom:1rem}
+  #lmenu{min-width:18rem}
+}
+@media (max-height:760px){
+  .topbar{padding-top:.4rem;padding-bottom:.7rem}
+  .pbody{padding-top:.7rem}
+  .pt h2{font-size:1.4rem}
+}
+@media (forced-colors:active){
+  .tb,.stp,.btn,.sbtn{border-color:ButtonText}
+}
+
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="topbar" id="topbar">
+    <div class="b-left">
+      <div class="brand"><b>Romeo &amp; Juliet</b><span>Act 4: Scenes 1–5</span></div>
+      <div class="popwrap">
+        <button id="lbtn" class="sbtn lesson" aria-haspopup="true" aria-expanded="false"><span id="lbl">Lesson 1</span><i class="car" aria-hidden="true"></i></button>
+        <div id="lmenu" class="pop" hidden></div>
+      </div>
+    </div>
+    <nav id="nav" class="b-mid" aria-label="Lesson steps"></nav>
+    <div class="b-right">
+      <div class="popwrap">
+        <button id="tbtn" class="sbtn" aria-haspopup="true" aria-expanded="false">Timer</button>
+        <div id="tmenu" class="pop" hidden>
+          <button data-sec="30">30 seconds</button>
+          <button data-sec="60">1 minute</button>
+          <button data-sec="120">2 minutes</button>
+          <button data-sec="300">5 minutes</button>
+          <button data-sec="600">10 minutes</button>
+        </div>
+      </div>
+      <div class="popwrap">
+        <button id="obtn" class="sbtn" aria-haspopup="true" aria-expanded="false">Display</button>
+        <div id="omenu" class="pop" hidden>
+          <div class="orow"><span>Text size</span><button id="fsm" aria-label="Smaller text">A−</button><button id="fsp" aria-label="Larger text">A+</button></div>
+          <div class="orow"><span>Theme</span><button id="theme">Night mode</button></div>
+          <div class="orow"><span>Screen</span><button id="full">Full screen</button></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="stage" class="canvas"></main>
+  <footer id="filters" class="filters" hidden></footer>
+</div>
+<div id="fctl" aria-hidden="true">
+  <button data-act="unfocus" id="unfocus"><i class="ic ic-back"></i> Back to analysis</button>
+  <button id="ffm" aria-label="Smaller text">A−</button>
+  <button id="ffp" aria-label="Larger text">A+</button>
+</div>
+<div id="timer" hidden role="timer" aria-live="off"><span id="tt">0:00</span><button data-act="tstop">Stop</button></div>
+<noscript>This teaching tool needs JavaScript.</noscript>
+
+<script>
+const DATA = {"TAGS":{"fate":"Fate & choice","conflict":"Conflict & honour","family":"Family & authority","love":"Love & loyalty","language":"Language & technique","appearance":"Appearance vs reality","irony":"Dramatic irony","context":"Context","ahead":"Look ahead"},"hours":[{"title":"Lesson 1","subtitle":"Act 4, Scene 1: the vial plan","aims":{"li":"To understand why Juliet threatens suicide rather than marry Paris, and how Friar Laurence's plan tries to solve her crisis.","sc":["I can explain how Juliet handles Paris's questions without lying outright, using a quotation.","I can explain why Juliet threatens to kill herself with a knife in the Friar's cell.","I can explain the Friar's plan in my own words, including what the vial does and why the timing matters."],"stretch":"I can evaluate whether the Friar's plan is genuinely wise, or just another desperate, risky idea dressed up as a solution.","word":{"w":"equivocation","m":"speaking in a way that is technically true but deliberately misleading.","eg":"Juliet tells Paris 'that may be, sir, when I may be a wife' — true, but not in the way Paris thinks. Use the word in one sentence today."},"bridge":"Last time: Capulet decided, without asking her, that Juliet will marry Paris on Thursday, and Romeo and Juliet said a desperate goodbye at dawn after their one night together."},"steps":[{"type":"aims","key":"h1-aims","short":"Aims","mins":5,"title":"Today's lesson","doNow":{"title":"Do now: predict","qa":[{"q":"Juliet is secretly married to Romeo, but Paris thinks he's about to marry her on Thursday. What kind of thing might she say to him that is true, but not in the way he thinks?","a":"Something technically honest but misleading — e.g. agreeing she'll be a 'wife' soon, without saying whose."},{"q":"Juliet has already shown once (with the poison comment to her mother in 3.5) that she'll consider desperate measures. What is the most extreme thing she might threaten in this scene?","a":"Suicide — she has nothing left to lose if no one will help her avoid the marriage."},{"q":"The Friar has already built one secret plan (the marriage) that went badly wrong. What kind of plan do you expect him to suggest this time?","a":"Probably another risky, secretive plan — this time involving deception rather than a simple escape."}]}},{"type":"context","key":"h1-ctx","short":"Before","mins":3,"title":"Before we continue","lead":"Talk first, then tap a card to check your idea.","blocks":[{"h":"Marriage as property","prompt":"Why might an Elizabethan father see his daughter's marriage as his decision to make, not hers?","t":"In Shakespeare's time, a daughter was legally and socially under her father's authority until marriage. Refusing an arranged match wasn't just disobedience — it could be seen as a daughter overstepping her place entirely."},{"h":"Suicide as a sin","prompt":"Why might threatening suicide be a genuinely shocking thing for Juliet to say to a friar?","t":"In Catholic teaching, suicide was considered a mortal sin that could condemn the soul. For Juliet to threaten it to a priest is a sign of true desperation, not a casual threat."},{"h":"The apparent-death plan","prompt":"What real risks can you already spot in a plan that depends on a fake death and perfect timing?","t":"Messages can go astray, people can act too early or too late, and a 'sleeping' potion depends entirely on trusting one man's knowledge of medicine. Watch for how many things have to go right."}],"side":{"title":"Ideas to track today","items":[{"h":"Fate vs. choice","t":"Is Juliet taking control of her fate here, or setting herself up for disaster?"},{"h":"Appearance vs. reality","t":"What Juliet performs for Paris and her parents versus what she really feels and plans."},{"h":"Look ahead","t":"Which details in the Friar's plan will matter later — and which could easily go wrong?"}]}},{"type":"extract","key":"e1","short":"4.1 Facing Paris","mins":12,"label":"Extract 1","title":"Act 4, Scene 1: ‘That may be, sir, when I may be a wife’","sub":"Paris questions Juliet about her feelings. She answers everything without ever technically lying.","setup":"Juliet has come to Friar Laurence's cell, supposedly to confess. Paris is already there, believing their wedding is settled for Thursday.","task":"Underline every one of Juliet's answers to Paris. Circle the ones that are true, but not in the way Paris understands them.","think":"With a partner (30 seconds): why might Shakespeare open this scene with wordplay, rather than a direct argument?","thinkSecs":30,"scene":"4.1","lines":[{"k":"sp","t":"Paris"},{"k":"ln","n":1,"t":"Happily met, my lady and my wife.","g":"What a happy coincidence, meeting my future wife here."},{"k":"sp","t":"Juliet"},{"k":"ln","n":2,"t":"That may be, sir, when I may be a wife.","g":"That might be true — once I actually am a wife (which, secretly, she already is — just not to him)."},{"k":"sp","t":"Paris"},{"k":"ln","n":3,"t":"That “may be” must be, love, on Thursday next.","g":"That 'might be' has to happen — the wedding's on Thursday."},{"k":"sp","t":"Juliet"},{"k":"ln","n":4,"t":"What must be shall be.","g":"Whatever has to happen, will happen (deliberately vague — she doesn't confirm anything)."},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":5,"t":"That’s a certain text.","g":"That's certainly true (the Friar, who knows the real situation, can't help but comment)."},{"k":"sp","t":"Paris"},{"k":"ln","n":6,"t":"Come you to make confession to this father?","g":"Have you come to confess to the Friar?"},{"k":"sp","t":"Juliet"},{"k":"ln","n":7,"t":"To answer that, I should confess to you.","g":"Answering that would mean confessing something to you instead (a deflection)."},{"k":"sp","t":"Paris"},{"k":"ln","n":8,"t":"Do not deny to him that you love me.","g":"Don't tell the Friar that you don't love me."},{"k":"sp","t":"Juliet"},{"k":"ln","n":9,"t":"I will confess to you that I love him.","g":"I'll admit to you that I love him — meaning the Friar as a person, letting Paris assume she means Paris himself."},{"k":"sp","t":"Paris"},{"k":"ln","n":10,"t":"So will you, I am sure, that you love me.","g":"And I'm sure you'll say the same about loving me."},{"k":"sp","t":"Juliet"},{"k":"ln","n":11,"t":"If I do so, it will be of more price\nBeing spoke behind your back than to your face.","g":"If I do say that, it'll mean more said behind your back than to your face — implying she'd rather not say it to him directly, because it isn't true."},{"k":"sp","t":"Paris"},{"k":"ln","n":12,"t":"Poor soul, thy face is much abused with tears.","g":"Poor thing, your face looks so damaged by crying."},{"k":"sp","t":"Juliet"},{"k":"ln","n":13,"t":"The tears have got small victory by that,\nFor it was bad enough before their spite.","g":"The tears haven't achieved much, since my face was already unhappy enough before I started crying."},{"k":"sp","t":"Paris"},{"k":"ln","n":14,"t":"Thou wrong’st it more than tears with that report.","g":"Saying that hurts your looks even more than the tears did."},{"k":"sp","t":"Juliet"},{"k":"ln","n":15,"t":"That is no slander, sir, which is a truth,\nAnd what I spake, I spake it to my face.","g":"It's not an insult if it's true, and I said it about my own face, to my own face."},{"k":"sp","t":"Paris"},{"k":"ln","n":16,"t":"Thy face is mine, and thou hast slandered it.","g":"Your face belongs to me now (as your future husband), so you've insulted my property."},{"k":"sp","t":"Juliet"},{"k":"ln","n":17,"t":"It may be so, for it is not mine own.—","g":"That might be true, because it isn't really my own anymore — she means it belongs to Romeo, not Paris."},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":18,"t":"My leisure serves me, pensive daughter, now.—\nMy lord, we must entreat the time alone.","g":"I have time for you now, my sad daughter. My lord, we need some privacy, please."},{"k":"sp","t":"Paris"},{"k":"ln","n":19,"t":"God shield I should disturb devotion!—\nJuliet, on Thursday early will I rouse you.\nTill then, adieu, and keep this holy kiss.","g":"Heaven forbid I interrupt your prayers! Juliet, I'll come wake you early on Thursday. Until then, farewell — keep this holy kiss."},{"k":"st","t":"Paris exits.","key":"s19"}],"notes":[{"id":"n1-1","from":2,"to":17,"title":"Equivocation: true words, false impression","meaning":"Almost every answer Juliet gives Paris here is technically honest — but only makes sense once you know she's already secretly married to Romeo.","effect":"This sustained pattern of double meaning lets Juliet resist Paris without ever directly lying to him, protecting both her secret and (just barely) her conscience.","ask":"Find one more example of Juliet answering 'truthfully' here in a way that completely misleads Paris.","tags":["language","appearance","irony"],"support":"When Juliet says '___,' Paris understands it to mean ___, but she secretly means ___.","stretch":"Compare this scene's equivocation to Juliet's 'till I behold him—dead—' line to her mother in 3.5. What does this repeated technique suggest about how Juliet has learned to survive within her family?","revise":true},{"id":"n1-2","at":17,"phrase":"It may be so, for it is not mine own.—","title":"Whose face — whose body — is it?","meaning":"Paris claims Juliet's face belongs to him as her future husband; Juliet agrees it isn't hers, but secretly means it belongs to Romeo instead.","effect":"The line exposes how completely Juliet's body and choices are treated as someone else's property by the men around her — she can only resist by quietly redirecting whose property it really is.","tags":["family","language"]},{"id":"n1-3","from":19,"to":19,"title":"Dramatic irony: the courteous exit","meaning":"Paris leaves warmly, believing everything is settled for Thursday and completely unaware of the real situation.","effect":"His kindness and total confidence make what's coming feel even crueler — the audience knows this 'holy kiss' and cheerful goodbye will never lead to the wedding he expects.","ask":"Why might Shakespeare make Paris sympathetic here, rather than a simple villain?","tags":["irony","context"]}]},{"type":"link","key":"l1","short":"Alone with the Friar","mins":2,"title":"Alone with the Friar","text":"The moment Paris is gone, Juliet drops the wordplay entirely. She turns to the Friar in complete {{despair}}, asking him to shut the door so she can weep freely — 'past hope, past care, past help.' What she says next will shock even him: she has brought a {{knife}}.","ext":"Why might Shakespeare have Juliet perform calm control for Paris, then collapse the instant he's gone?"},{"type":"extract","key":"e2","short":"4.1 The knife","mins":10,"label":"Extract 2","title":"Act 4, Scene 1: ‘This shall slay them both’","sub":"Alone with the Friar, Juliet threatens suicide rather than commit bigamy by marrying Paris.","setup":"Paris has just left. Juliet, alone with the Friar, drops her composed performance completely.","task":"Underline every threat Juliet makes with the knife. Circle the line where she says it will kill two things at once.","scene":"4.1","lines":[{"k":"sp","t":"Juliet"},{"k":"ln","n":20,"t":"O, shut the door, and when thou hast done so,\nCome weep with me, past hope, past care, past help.","g":"Shut the door, and then come weep with me — I'm beyond hope, beyond caring, beyond help."},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":21,"t":"O Juliet, I already know thy grief.\nIt strains me past the compass of my wits.","g":"Juliet, I already know what's wrong. It's pushing me past what my wisdom can solve."},{"k":"sp","t":"Juliet"},{"k":"ln","n":22,"t":"I hear thou must, and nothing may prorogue it,\nOn Thursday next be married to this County.\nTell me not, friar, that thou hearest of this,\nUnless thou tell me how I may prevent it.\nIf in thy wisdom thou canst give no help,\nDo thou but call my resolution wise,\nAnd with this knife I’ll help it presently.\nGod joined my heart and Romeo’s, thou our hands;\nAnd ere this hand, by thee to Romeo’s sealed,\nShall be the label to another deed,\nOr my true heart with treacherous revolt\nTurn to another, this shall slay them both.\nTherefore out of thy long-experienced time\nGive me some present counsel, or, behold,\n’Twixt my extremes and me this bloody knife\nShall play the umpire, arbitrating that\nWhich the commission of thy years and art\nCould to no issue of true honor bring.\nBe not so long to speak. I long to die\nIf what thou speak’st speak not of remedy.","g":"I hear I must marry Paris on Thursday, and nothing can delay it. Don't just tell me you've heard this — tell me how to stop it. If your wisdom has no answer, then just call my decision wise, and this knife will solve it right now. God and you joined my heart to Romeo's and our hands together — before this hand can be promised to someone else, or before my heart could ever betray him by loving another, this knife will kill them both. So use your years of experience to give me real advice — or else this knife will settle the matter between my two impossible choices, in a way your wisdom couldn't manage honourably. Don't take too long to answer. I'd rather die now than hear you say nothing can help me."},{"k":"st","t":"Juliet shows him her knife.","key":"s22"}],"notes":[{"id":"n2-1","at":22,"phrase":"this shall slay them both","title":"Killing the hand and the heart","meaning":"Juliet says the knife will kill both her 'hand' (if forced to marry Paris) and her 'heart' (if it were ever unfaithful to Romeo) — but really it threatens her own single life.","effect":"This grim wordplay shows Juliet reasoning her way to suicide with the same verbal skill she used to deceive Paris moments earlier — her cleverness now serves despair instead of survival.","ask":"How is this moment similar to Romeo's despair in 3.3, when the Friar had to stop him drawing his own dagger?","tags":["language","fate"],"support":"Juliet says the knife 'shall slay them both,' meaning ___ and ___. This reveals ___.","stretch":"Compare this scene directly with Romeo's suicide attempt in 3.3: what's similar about how each of them reaches for a blade, and what's different about how the Friar responds each time?","revise":true},{"id":"n2-2","from":22,"to":22,"title":"An ultimatum to her spiritual guide","meaning":"Juliet essentially forces the Friar's hand: give real help, or she'll take her own life immediately.","effect":"This is a huge escalation from the passive, obedient daughter we saw kneeling to her father in 4.2 — here Juliet takes complete control of the situation, refusing to accept 'no answer' as an option.","ask":"Is this Juliet showing real strength, real desperation, or both at once?","tags":["fate","family"]},{"id":"n2-3","at":22,"phrase":"God joined my heart and Romeo’s, thou our hands;","title":"The Friar is implicated","meaning":"Juliet reminds the Friar that he personally performed the marriage — he isn't a neutral advisor here, he's already responsible for the situation.","effect":"This is a sharp piece of persuasion: she's not just asking for help, she's reminding him he has a duty to fix a problem he helped create.","tags":["context","family"]}]},{"type":"link","key":"l2","short":"A kind of hope","mins":2,"title":"A kind of hope","text":"Faced with Juliet's knife and her genuine willingness to die, the Friar finally speaks. He tells her he sees 'a kind of hope' — but warns it will require just as much {{courage}} as suicide itself. Whatever it is, Juliet is ready to agree before she even hears the details.","ext":"What kind of plan do you think could require the same courage as suicide, without actually being fatal?"},{"type":"extract","key":"e3","short":"4.1 The plan","mins":14,"label":"Extract 3","title":"Act 4, Scene 1: ‘Take thou this vial’","sub":"The Friar reveals his plan in full: a potion that mimics death, so Juliet can escape the marriage and reunite with Romeo.","setup":"The Friar has decided to help. He explains, in careful detail, exactly what Juliet must do.","task":"Underline every step of the plan in order. Circle any detail that depends on perfect timing or someone else's actions.","think":"With a partner (30 seconds): count how many separate things have to go right for this plan to work.","thinkSecs":30,"scene":"4.1","lines":[{"k":"sp","t":"Friar Laurence"},{"k":"st","t":"Holding out a vial.","key":"s23"},{"k":"ln","n":23,"t":"Hold, daughter, I do spy a kind of hope,\nWhich craves as desperate an execution\nAs that is desperate which we would prevent.\nIf, rather than to marry County Paris,\nThou hast the strength of will to slay thyself,\nThen is it likely thou wilt undertake\nA thing like death to chide away this shame,\nThat cop’st with death himself to ’scape from it;\nAnd if thou darest, I’ll give thee remedy.","g":"Wait, daughter — I do see a kind of hope, but it needs just as much desperate courage as the thing we're trying to prevent. If you're brave enough to kill yourself rather than marry Paris, then you're probably brave enough to try something that resembles death instead, to escape this shame — since you're already willing to face actual death to avoid it. If you dare, I'll give you a solution."},{"k":"sp","t":"Juliet"},{"k":"ln","n":24,"t":"O, bid me leap, rather than marry Paris,\nFrom off the battlements of any tower,\nOr walk in thievish ways, or bid me lurk\nWhere serpents are. Chain me with roaring bears,\nOr hide me nightly in a charnel house,\nO’ercovered quite with dead men’s rattling bones,\nWith reeky shanks and yellow chapless skulls.\nOr bid me go into a new-made grave\nAnd hide me with a dead man in his shroud\n(Things that to hear them told have made me\ntremble),\nAnd I will do it without fear or doubt,\nTo live an unstained wife to my sweet love.","g":"Tell me to jump off a tower, walk through dangerous places, or hide where snakes live — rather than marry Paris. Chain me with wild bears, hide me overnight in a room full of rattling, rotting bones and skulls, or bury me in a fresh grave with a corpse — things that would normally terrify me just to hear about. I'll do any of it without hesitation, to stay a faithful wife to Romeo."},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":25,"t":"Hold, then. Go home; be merry; give consent\nTo marry Paris. Wednesday is tomorrow.\nTomorrow night look that thou lie alone;\nLet not the Nurse lie with thee in thy chamber.\nTake thou this vial, being then in bed,\nAnd this distilling liquor drink thou off;\nWhen presently through all thy veins shall run\nA cold and drowsy humor; for no pulse\nShall keep his native progress, but surcease.\nNo warmth, no breath shall testify thou livest.\nThe roses in thy lips and cheeks shall fade\nTo paly ashes, thy eyes’ windows fall\nLike death when he shuts up the day of life.\nEach part, deprived of supple government,\nShall, stiff and stark and cold, appear like death,\nAnd in this borrowed likeness of shrunk death\nThou shalt continue two and forty hours\nAnd then awake as from a pleasant sleep.\nNow, when the bridegroom in the morning comes\nTo rouse thee from thy bed, there art thou dead.\nThen, as the manner of our country is,\nIn thy best robes uncovered on the bier\nThou shalt be borne to that same ancient vault\nWhere all the kindred of the Capulets lie.\nIn the meantime, against thou shalt awake,\nShall Romeo by my letters know our drift,\nAnd hither shall he come, and he and I\nWill watch thy waking, and that very night\nShall Romeo bear thee hence to Mantua.\nAnd this shall free thee from this present shame,\nIf no inconstant toy nor womanish fear\nAbate thy valor in the acting it.","g":"Then hold on. Go home, act cheerful, and agree to marry Paris — Wednesday is tomorrow. Tomorrow night, make sure you sleep alone; don't let the Nurse stay in your room. Take this vial while you're in bed and drink the whole liquid. Almost immediately, a cold, drowsy feeling will spread through your veins — your pulse will stop completely, with no warmth or breathing to show you're alive. Your lips and cheeks will turn pale, your eyes will close like death's, and your whole body will go stiff, cold and lifeless for exactly forty-two hours, before you wake up as if from a pleasant sleep. When Paris comes to wake you that morning, he'll find you 'dead' instead. Following our custom, you'll be dressed in your best clothes and carried, uncovered, to the Capulet family vault. Meanwhile, I'll send letters telling Romeo the whole plan, so he can come and be there when you wake — and that same night he'll take you to Mantua. This will free you from the marriage completely, as long as fear or hesitation don't stop you from going through with it."},{"k":"sp","t":"Juliet"},{"k":"ln","n":26,"t":"Give me, give me! O, tell not me of fear!","g":"Give it to me now! Don't even mention fear to me."},{"k":"st","t":"Friar Laurence gives Juliet the vial.","key":"s26"},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":27,"t":"Hold, get you gone. Be strong and prosperous\nIn this resolve. I’ll send a friar with speed\nTo Mantua with my letters to thy lord.","g":"Here, take it and go. Stay strong and see this through. I'll quickly send another friar with letters to Romeo in Mantua."},{"k":"sp","t":"Juliet"},{"k":"ln","n":28,"t":"Love give me strength, and strength shall help\nafford.\nFarewell, dear father.","g":"Let love give me the strength I need, and that strength will help me succeed. Farewell, dear Friar."},{"k":"st","t":"They exit in different directions.","key":"s28"}],"notes":[{"id":"n3-1","from":25,"to":25,"title":"Forty-two hours: a precise, fragile plan","meaning":"The Friar gives an exact figure — the potion lasts precisely forty-two hours — and lays out a chain of events that all depend on perfect timing: the potion working correctly, the letter reaching Romeo, and Romeo arriving before Juliet wakes.","effect":"The sheer number of specific steps (drink, appear dead, be carried to the vault, letter sent, Romeo arrives, they wait together) turns hope into a countdown — a plan this precise is also a plan with many single points of failure.","ask":"List every single thing that has to happen correctly, in order, for this plan to succeed.","tags":["fate","ahead"],"support":"The Friar's plan requires these steps in order: ___, ___, and ___. This is risky because ___.","stretch":"This is the third secret, high-risk plan the Friar has engineered across the play (the marriage, Romeo's flight to Mantua, and now this). Consider whether the play presents him as ultimately a force for good or harm.","revise":true},{"id":"n3-2","from":24,"to":24,"title":"Juliet's catalogue of horrors","meaning":"Before even hearing the plan, Juliet lists an escalating series of nightmarish alternatives she'd rather face — towers, thieves, snakes, bears, rotting corpses, an open grave — all to avoid marrying Paris.","effect":"The list form itself performs her desperation and total commitment: each image is worse than the last, showing her courage is not naive but genuinely tested against real horror.","ask":"Why might Shakespeare have Juliet imagine these horrors before she even knows what the real plan involves?","tags":["language","love"]},{"id":"n3-3","at":25,"phrase":"And this shall free thee from this present shame,","title":"Shame, not danger, is the stated problem","meaning":"The Friar frames the plan as solving Juliet's 'shame' — the social disgrace of the marriage — rather than focusing on her actual safety.","effect":"This shows how much the play's central crisis is driven by reputation and social appearance, even for characters trying to help rather than control her.","tags":["context","family"]},{"id":"n3-4","at":26,"phrase":"Give me, give me! O, tell not me of fear!","title":"Echoing her earlier courage","meaning":"Juliet's blunt, urgent demand for the vial mirrors her earlier readiness to face 'roaring bears' and 'reeky shanks' — she refuses to let fear slow her down.","effect":"The short, breathless line (compared to the Friar's long, careful explanation) shows her decisiveness — but an audience who has just heard the plan's many risks may read this eagerness as also dangerously hasty.","tags":["fate","language"]}]},{"type":"practice","key":"h1-practice","short":"Practice","mins":12,"title":"Quick practice: Scene 4.1","sub":"Write your answers first. Then tap a question to check.","tipsTitle":"What earns marks","tips":[{"h":"1-mark plot questions","t":"One clear, short answer — don't overwrite."},{"h":"3-mark analysis questions","t":"Quote it, explain it in your own words, then analyse the effect or technique. One mark per part."}],"qs":[{"k":"short","n":1,"marks":1,"q":"What does Juliet threaten to do with the knife she brings to the Friar's cell?","a":"Kill herself, rather than marry Paris."},{"k":"short","n":2,"marks":1,"q":"What does the Friar give Juliet to solve her problem?","a":"A vial (potion) that will make her appear dead."},{"k":"short","n":3,"marks":1,"q":"How many hours will the potion's effect last?","a":"Forty-two hours."},{"k":"short","n":4,"marks":1,"q":"Who is the Friar going to send a letter to, and where?","a":"Romeo, in Mantua."},{"k":"short","n":5,"marks":3,"starter":"When Juliet says '___' to Paris, she means ___, but Paris understands ___. This technique is called ___.","q":"Quote one of Juliet's technically-true but misleading answers to Paris, explain the double meaning, and name the technique.","a":"“It may be so, for it is not mine own” — Juliet means her face (and by extension, herself) belongs to Romeo, but Paris hears only a strange, playful comment. This is equivocation — speaking truthfully in a way designed to mislead."},{"k":"short","n":6,"marks":3,"starter":"The Friar's plan depends on ___, then ___, then ___. This is risky because ___.","q":"Explain the Friar's plan in your own words, and analyse why it depends on so many things happening correctly.","a":"The plan needs Juliet to drink the potion, appear dead, be carried to the family vault, and have a letter reach Romeo in time for him to arrive before she wakes. It's risky because a single delay or lost message could unravel the entire plan."}]},{"type":"plenary","key":"h1-end","short":"Exit","mins":8,"title":"Exit ticket","ticket":[{"lvl":"core","q":"Why does Juliet bring a knife to the Friar's cell?","a":"She is desperate enough to kill herself rather than commit bigamy by marrying Paris while still married to Romeo."},{"lvl":"core","q":"What must Juliet do the night before the wedding, and why is that detail important?","a":"She must sleep alone, with no one (especially not the Nurse) in her chamber, so that no one discovers she has taken the potion, or interrupts the plan."},{"lvl":"stretch","q":"Evaluate whether the Friar's plan is genuinely wise, or just another desperate, risky idea. Use one quotation.","a":"The plan is presented as carefully thought out ('two and forty hours'), but it depends on so many separate events working perfectly — the potion, the letter, Romeo's timing — that it is arguably just as reckless as the secret marriage that caused this crisis in the first place."}],"next":"Next lesson: Juliet performs total obedience for her father, the wedding is moved forward to tomorrow, and Juliet faces her fears alone before drinking the potion."}]},{"title":"Lesson 2","subtitle":"Act 4, Scenes 2–3: false obedience and the fear soliloquy","aims":{"li":"To understand how Juliet performs obedience to deceive her father, and how her solo fear-speech reveals what she truly feels once she is alone.","sc":["I can explain why Juliet's 'repentance' in Scene 4.2 is dramatic irony, using a quotation.","I can explain why Capulet moving the wedding to Wednesday makes the Friar's plan more dangerous.","I can explain at least two of Juliet's fears in her Scene 4.3 soliloquy, using a quotation."],"stretch":"I can compare the Juliet who performs for her father in 4.2 with the Juliet who speaks alone in 4.3, and explain what the contrast reveals about her situation.","word":{"w":"soliloquy","m":"a speech a character gives alone onstage, revealing their private thoughts directly to the audience.","eg":"Juliet's 'What if this mixture do not work at all?' speech is a soliloquy — the one moment the play lets us see her true fear, without any performance for other characters. Use the word in one sentence today."},"bridge":"Last time: Juliet brought a knife to Friar Laurence's cell and threatened suicide rather than marry Paris. He gave her a plan instead — a vial that will make her appear dead for forty-two hours."},"steps":[{"type":"aims","key":"h2-aims","short":"Aims","mins":4,"title":"Today's lesson","doNow":{"title":"Do now: predict","qa":[{"q":"Juliet has just agreed to a plan that requires her father to believe she's genuinely repentant. What kind of performance do you expect her to give when she gets home?","a":"A convincing, exaggerated show of total obedience — she needs Capulet to fully believe she's changed her mind."},{"q":"Capulet is delighted by Juliet's apparent change of heart. What's the risk of a parent being this pleased, this quickly?","a":"He might want to act on it immediately — e.g. move the wedding earlier — which could disrupt any plan that depends on careful timing."},{"q":"Once Juliet is finally alone with the potion, she has no one left to perform for. What do you expect to hear from her that we haven't heard yet?","a":"Her real fears and doubts about the plan, rather than the confidence she's shown everyone else."}]}},{"type":"extract","key":"e4","short":"4.2 False obedience","mins":14,"label":"Extract 1","title":"Act 4, Scene 2: ‘Henceforward I am ever ruled by you’","sub":"Juliet returns home and performs total submission to her father — who is so delighted he moves the wedding forward a whole day.","setup":"Capulet is preparing for the wedding, unaware Juliet has just been given a secret plan by the Friar. She returns from his cell.","task":"Underline every part of Juliet's speech that sounds like genuine obedience. Then find the line where Capulet decides to change the wedding day, and note what he changes it to.","think":"With a partner (30 seconds): why is it dangerous, for Juliet's plan, that her performance works this well?","thinkSecs":30,"scene":"4.2","lines":[{"k":"st","t":"Enter Capulet, Lady Capulet, the Nurse, and Servingmen.","key":"s0"},{"k":"sp","t":"Capulet"},{"k":"ln","n":1,"t":"So many guests invite as here are writ.\nSirrah, go hire me twenty cunning cooks.","g":"Invite exactly as many guests as are on this list. You — go hire me twenty skilled cooks."},{"k":"sp","t":"Servingman"},{"k":"ln","n":2,"t":"You shall have none ill, sir, for I’ll try if\nthey can lick their fingers.","g":"I won't hire any bad ones — I'll test whether they can 'lick their fingers' (an old saying for being a good cook)."},{"k":"sp","t":"Capulet"},{"k":"ln","n":3,"t":"How canst thou try them so?","g":"How exactly will you test that?"},{"k":"sp","t":"Servingman"},{"k":"ln","n":4,"t":"Marry, sir, ’tis an ill cook that cannot lick\nhis own fingers. Therefore he that cannot lick his\nfingers goes not with me.","g":"Well sir, any cook who can't lick his own fingers is a bad one — so if he can't, I won't hire him."},{"k":"sp","t":"Capulet"},{"k":"ln","n":5,"t":"Go, begone.\nWe shall be much unfurnished for this time.—\nWhat, is my daughter gone to Friar Lawrence?","g":"Go on then, off you go. We'll be badly under-prepared for this. Has my daughter gone to see Friar Laurence?"},{"k":"sp","t":"Nurse"},{"k":"ln","n":6,"t":"Ay, forsooth.","g":"Yes, she has."},{"k":"sp","t":"Capulet"},{"k":"ln","n":7,"t":"Well, he may chance to do some good on her.\nA peevish self-willed harlotry it is.","g":"Well, maybe he can talk some sense into her. She's such a stubborn, difficult girl."},{"k":"st","t":"Enter Juliet.","key":"s7"},{"k":"sp","t":"Nurse"},{"k":"ln","n":8,"t":"See where she comes from shrift with merry look.","g":"Look, here she comes back from confession, looking cheerful."},{"k":"sp","t":"Capulet"},{"k":"ln","n":9,"t":"How now, my headstrong, where have you been\ngadding?","g":"So, my stubborn one, where have you been running off to?"},{"k":"sp","t":"Juliet"},{"k":"ln","n":10,"t":"Where I have learned me to repent the sin\nOf disobedient opposition\nTo you and your behests, and am enjoined\nBy holy Lawrence to fall prostrate here\nTo beg your pardon. Pardon, I beseech you.\nHenceforward I am ever ruled by you.","g":"I've learned to regret disobeying you and your wishes, and Friar Laurence has told me to kneel here and beg your forgiveness. Please forgive me — from now on, I'll do exactly as you say."},{"k":"st","t":"Juliet kneels.","key":"s10"},{"k":"sp","t":"Capulet"},{"k":"ln","n":11,"t":"Send for the County. Go tell him of this.\nI’ll have this knot knit up tomorrow morning.","g":"Send for Paris, tell him the good news. I'll get this marriage tied up tomorrow morning."},{"k":"sp","t":"Juliet"},{"k":"ln","n":12,"t":"I met the youthful lord at Lawrence’ cell\nAnd gave him what becomèd love I might,\nNot stepping o’er the bounds of modesty.","g":"I met Paris at the Friar's cell and showed him whatever proper affection I could, without overstepping what's appropriate."},{"k":"st","t":"Juliet rises.","key":"s12"},{"k":"sp","t":"Capulet"},{"k":"ln","n":13,"t":"Why, I am glad on ’t. This is well. Stand up.\nThis is as ’t should be.—Let me see the County.\nAy, marry, go, I say, and fetch him hither.—\nNow, afore God, this reverend holy friar,\nAll our whole city is much bound to him.","g":"I'm so pleased. This is exactly how it should be. Stand up. Let me see Paris — go on, fetch him here. Honestly, this reverend Friar — the whole city owes him a debt."},{"k":"sp","t":"Juliet"},{"k":"ln","n":14,"t":"Nurse, will you go with me into my closet\nTo help me sort such needful ornaments\nAs you think fit to furnish me tomorrow?","g":"Nurse, will you come to my room and help me pick out the things I'll need for tomorrow?"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":15,"t":"No, not till Thursday. There is time enough.","g":"No, not yet — there's no rush until Thursday."},{"k":"sp","t":"Capulet"},{"k":"ln","n":16,"t":"Go, nurse. Go with her. We’ll to church tomorrow.","g":"Go on, Nurse, go with her — we're going to church tomorrow."},{"k":"st","t":"Juliet and the Nurse exit.","key":"s16"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":17,"t":"We shall be short in our provision.\n’Tis now near night.","g":"We won't have enough time to prepare — it's nearly nighttime already."},{"k":"sp","t":"Capulet"},{"k":"ln","n":18,"t":"Tush, I will stir about,\nAnd all things shall be well, I warrant thee, wife.\nGo thou to Juliet. Help to deck up her.\nI’ll not to bed tonight. Let me alone.\nI’ll play the housewife for this once.—What ho!—\nThey are all forth. Well, I will walk myself\nTo County Paris, to prepare up him\nAgainst tomorrow. My heart is wondrous light\nSince this same wayward girl is so reclaimed.","g":"Don't worry, I'll get everything moving and it'll all be fine, I promise. You go help Juliet get ready. I won't sleep tonight — leave it to me, I'll handle the household chores myself for once. Everyone's already out — fine, I'll go tell Paris myself to get ready for tomorrow. My heart feels so light now that my difficult daughter has finally come round."},{"k":"st","t":"They exit.","key":"s18"}],"notes":[{"id":"n4-1","at":5,"phrase":"We shall be much unfurnished for this time.—","title":"Grief and wedding planning, again","meaning":"Just as in Scene 3.4, Capulet moves rapidly from ordinary domestic business to talk of his daughter, without pausing to consider her feelings.","effect":"The comic servingman banter surrounding this moment (finger-licking cooks) makes the household feel almost normal and cheerful — creating a sharp, uncomfortable contrast with what the audience knows Juliet is actually planning.","tags":["family","context"]},{"id":"n4-2","at":10,"phrase":"Henceforward I am ever ruled by you.","title":"A performance almost too good","meaning":"Juliet's declaration of total, permanent obedience directly echoes the very obedience Capulet demanded from her in 3.5 — now delivered with theatrical precision.","effect":"The audience knows this is entirely false, which makes it darkly ironic: Juliet has to become a brilliant actress, using the same submissive language her father wanted, purely to enable her escape from his control.","ask":"Compare this line to Capulet's confidence in 3.4 that Juliet 'will be ruled... by me.' What's changed about who is really in control?","tags":["irony","appearance","family"],"support":"Juliet says '___,' which appears to show ___. In reality, this is dramatic irony because ___.","stretch":"Track how many times characters in this play perform emotions they don't really feel (Juliet here, Romeo's early lovesickness, the family's grief in 4.5). What does this pattern suggest about honesty and performance in Verona?","revise":true},{"id":"n4-3","from":11,"to":11,"title":"The wedding moves earlier","meaning":"Capulet's delight is so immediate that he decides, on the spot, to hold the wedding 'tomorrow morning' — a full day earlier than the Thursday previously agreed.","effect":"This single impulsive decision throws the Friar's careful forty-two-hour plan into real danger: every calculation the Friar made assumed Wednesday night, not this new, earlier timeline, showing how one man's excitement can unravel a fragile plan instantly.","ask":"Why might Shakespeare have Capulet change the date himself, rather than have it stay as originally planned?","tags":["fate","ahead"],"support":"Capulet decides the wedding will happen ___, which is earlier than expected. This threatens the Friar's plan because ___.","stretch":"This is the second time in the play a Capulet parent has unilaterally moved a wedding date forward (compare 3.4, Wednesday to Thursday). What does this pattern suggest about how little control Juliet actually has over her own life, even indirectly through deception?","revise":true},{"id":"n4-4","from":18,"to":18,"title":"Tragic irony: 'my heart is wondrous light'","meaning":"Capulet ends the scene overjoyed, believing his daughter has been genuinely 'reclaimed' back to obedience.","effect":"This is one of the play's clearest uses of dramatic irony: the audience knows Juliet's apparent transformation is a performance built on a plan for fake death, so Capulet's happiness is built entirely on a lie he cannot see.","ask":"Why might Shakespeare end this scene on Capulet's joy rather than on any hint of doubt?","tags":["irony","ahead"]}]},{"type":"link","key":"l4","short":"Alone at last","mins":2,"title":"Alone at last","text":"That night, Juliet prepares for what everyone believes is her wedding day. She sends the {{Nurse}} and her mother away, claiming she needs privacy to pray. The moment the door closes, she takes out the {{vial}} — and, just in case, a {{knife}} — and finally allows herself to feel everything she has been hiding.","ext":"Why might Shakespeare wait until Juliet is completely alone to let the audience hear her real fears?"},{"type":"extract","key":"e5","short":"4.3 The soliloquy","mins":18,"label":"Extract 2","title":"Act 4, Scene 3: ‘What if this mixture do not work at all?’","sub":"Left alone, Juliet imagines everything that could go wrong with the plan — and drinks the potion anyway.","setup":"It's the night before the (now earlier) wedding. Juliet has sent everyone away and is alone with the vial for the first time.","task":"Underline every 'What if...' question Juliet asks herself. Circle the point where her fear turns into a vivid, almost hallucinatory vision.","think":"With a partner (30 seconds): is Juliet's fear a sign of weakness, or does drinking the potion anyway make her braver?","thinkSecs":30,"scene":"4.3","lines":[{"k":"st","t":"Enter Juliet and the Nurse.","key":"s0"},{"k":"sp","t":"Juliet"},{"k":"ln","n":1,"t":"Ay, those attires are best. But, gentle nurse,\nI pray thee leave me to myself tonight,\nFor I have need of many orisons\nTo move the heavens to smile upon my state,\nWhich, well thou knowest, is cross and full of sin.","g":"Yes, those clothes are best. But, dear Nurse, please leave me alone tonight — I need to pray a lot, to ask heaven to look kindly on my situation, which you know is troubled and full of sin."},{"k":"st","t":"Enter Lady Capulet.","key":"s1"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":2,"t":"What, are you busy, ho? Need you my help?","g":"Are you busy? Do you need my help with anything?"},{"k":"sp","t":"Juliet"},{"k":"ln","n":3,"t":"No, madam, we have culled such necessaries\nAs are behooveful for our state tomorrow.\nSo please you, let me now be left alone,\nAnd let the Nurse this night sit up with you,\nFor I am sure you have your hands full all\nIn this so sudden business.","g":"No, Mother — we've already picked out everything we need for tomorrow. Please, let me be alone now, and let the Nurse help you instead tonight, since I know you have so much to organise with such short notice."},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":4,"t":"Good night.\nGet thee to bed and rest, for thou hast need.","g":"Good night then. Get some rest, you need it."},{"k":"st","t":"Lady Capulet and the Nurse exit.","key":"s4"},{"k":"sp","t":"Juliet"},{"k":"ln","n":5,"t":"Farewell.—God knows when we shall meet again.\nI have a faint cold fear thrills through my veins\nThat almost freezes up the heat of life.\nI’ll call them back again to comfort me.—\nNurse!—What should she do here?\nMy dismal scene I needs must act alone.\nCome, vial.","g":"Goodbye. Who knows when we'll see each other again? A faint, cold fear is running through me, almost freezing the warmth of life itself. I want to call them back to comfort me — Nurse! But what could she even do? I have to face this terrible scene completely alone. Come here, vial."},{"k":"ln","n":6,"t":"What if this mixture do not work at all?\nShall I be married then tomorrow morning?\nNo, no, this shall forbid it. Lie thou there.","g":"What if this potion simply doesn't work at all? Will I just have to go through with the wedding tomorrow morning after all? No — this will stop it. Stay there for now."},{"k":"st","t":"Juliet lays down her knife.","key":"s6"},{"k":"ln","n":7,"t":"What if it be a poison which the Friar\nSubtly hath ministered to have me dead,\nLest in this marriage he should be dishonored\nBecause he married me before to Romeo?\nI fear it is. And yet methinks it should not,\nFor he hath still been tried a holy man.","g":"What if it's actually poison, secretly given to me by the Friar to have me killed — so he isn't disgraced for having already married me to Romeo? I'm afraid it might be. But then again, he's always proven to be a genuinely holy man."},{"k":"ln","n":8,"t":"How if, when I am laid into the tomb,\nI wake before the time that Romeo\nCome to redeem me? There’s a fearful point.\nShall I not then be stifled in the vault,\nTo whose foul mouth no healthsome air breathes in,\nAnd there die strangled ere my Romeo comes?","g":"What if, once I'm placed in the tomb, I wake up before Romeo arrives to rescue me? That's a truly frightening thought. Won't I suffocate in that sealed vault, where no fresh air can get in, and die there before Romeo even reaches me?"},{"k":"ln","n":9,"t":"Or, if I live, is it not very like\nThe horrible conceit of death and night,\nTogether with the terror of the place—\nAs in a vault, an ancient receptacle\nWhere for this many hundred years the bones\nOf all my buried ancestors are packed;\nWhere bloody Tybalt, yet but green in earth,\nLies fest’ring in his shroud; where, as they say,\nAt some hours in the night spirits resort—","g":"Or, even if I do survive, won't the sheer horror of death, darkness, and the terrifying location overwhelm me? It's an ancient vault packed with the bones of generations of my dead family — and Tybalt, freshly buried, rotting in his burial cloth — where, people say, ghosts appear at certain hours of the night."},{"k":"ln","n":10,"t":"Alack, alack, is it not like that I,\nSo early waking, what with loathsome smells,\nAnd shrieks like mandrakes torn out of the earth,\nThat living mortals, hearing them, run mad—\nO, if I wake, shall I not be distraught,\nEnvironèd with all these hideous fears,\nAnd madly play with my forefathers’ joints,\nAnd pluck the mangled Tybalt from his shroud,\nAnd, in this rage, with some great kinsman’s bone,\nAs with a club, dash out my desp’rate brains?","g":"Isn't it likely that, waking up so early amid horrible smells and shrieking sounds said to drive living people mad, I'll be driven half-mad myself? Surrounded by all these terrifying things, might I lose my mind completely — playing madly with my ancestors' bones, dragging Tybalt's mangled body from its wrappings, and in that frenzy, smashing my own brains out with a bone from one of my relatives?"},{"k":"ln","n":11,"t":"O look, methinks I see my cousin’s ghost\nSeeking out Romeo that did spit his body\nUpon a rapier’s point! Stay, Tybalt, stay!\nRomeo, Romeo, Romeo! Here’s drink. I drink to\nthee.","g":"Oh look — I think I see Tybalt's ghost, hunting for Romeo, who ran him through with a sword! Stop, Tybalt, stop! Romeo, Romeo, Romeo — here, I drink this to you."},{"k":"st","t":"Juliet drinks and falls upon her bed within the curtains.","key":"s11"}],"notes":[{"id":"n5-1","from":5,"to":11,"title":"Soliloquy: the only unguarded moment","meaning":"This is the longest stretch in the play where Juliet speaks completely alone, with no audience of other characters to perform for.","effect":"Everything she's hidden from Paris, her parents, and even the Nurse comes out here — genuine terror, genuine doubt, and genuine courage all at once. It's the clearest contrast in the play between Juliet's public performance and her private reality.","ask":"How is this soliloquy different in tone and purpose from her equivocating answers to Paris in 4.1?","tags":["language","appearance"],"support":"Unlike her earlier equivocation with Paris, here Juliet ___. This shows ___.","stretch":"Compare this soliloquy structurally to Hamlet's 'To be or not to be' or another list-of-fears speech you know. What does the rhetorical pattern of repeated questions achieve for an audience?","revise":true},{"id":"n5-2","from":6,"to":8,"title":"Anaphora: 'What if...'","meaning":"Juliet repeats the structure 'What if...' three times in quick succession, working through the plan's possible failures one by one.","effect":"This repeated rhetorical pattern (anaphora) makes her fear feel methodical and escalating rather than random — each 'what if' is worse than the last, building tension logically toward panic.","ask":"What effect does repeating the same sentence structure have on how an audience experiences her fear?","tags":["language"]},{"id":"n5-3","from":9,"to":10,"title":"Gothic horror imagery","meaning":"Juliet imagines the vault in vivid, nightmarish detail: rotting bones, Tybalt's decaying body, shrieking sounds, and madness.","effect":"This dense, horrifying imagery (a technique associated with later Gothic literature) shows her imagination spiraling completely out of control — it's the most frightening writing in the play so far, heightening how much courage it takes for her to still go through with the plan.","tags":["language","fate"]},{"id":"n5-4","at":11,"phrase":"Romeo, Romeo, Romeo! Here’s drink. I drink to\nthee.","title":"Love overpowers fear, in the final second","meaning":"After a speech dominated entirely by horror and doubt, Juliet's very last words before drinking are Romeo's name, repeated three times.","effect":"This sudden shift — from picturing Tybalt's ghost to invoking Romeo — shows that in the end, her love and loyalty to him are stronger than every fear she's just described. The toast-like phrasing ('I drink to thee') turns a desperate act into a kind of vow.","ask":"Why end the soliloquy on Romeo's name rather than on her fear of the tomb?","tags":["love","fate"],"support":"Juliet's final words before drinking are '___,' repeated three times. This shows that ___.","stretch":"By this point, Juliet has independently arrived at an image of Romeo very close to how he will actually find her in Act 5. Consider how this soliloquy prepares the audience for the play's final scene.","revise":true}]},{"type":"practice","key":"h2-practice","short":"Practice","mins":10,"title":"Quick practice: Scenes 4.2–4.3","sub":"Write your answers first. Then tap a question to check.","tipsTitle":"What earns marks","tips":[{"h":"1-mark plot questions","t":"One clear, short answer — don't overwrite."},{"h":"3-mark analysis questions","t":"Quote it, explain it in your own words, then analyse the effect or technique. One mark per part."}],"qs":[{"k":"short","n":1,"marks":1,"q":"What does Juliet tell Capulet she has learned to do, in her false confession?","a":"To repent (regret) her disobedience and be ruled by him from now on."},{"k":"short","n":2,"marks":1,"q":"To what day does Capulet move the wedding, and why is this a problem for the plan?","a":"He moves it to tomorrow (Wednesday) instead of Thursday, giving the Friar's plan less time."},{"k":"short","n":3,"marks":1,"q":"What two objects does Juliet lay out on the bed before her soliloquy?","a":"The vial (potion) and a knife."},{"k":"short","n":4,"marks":1,"q":"Whose ghost does Juliet imagine seeing just before she drinks the potion?","a":"Tybalt's."},{"k":"short","n":5,"marks":3,"starter":"Juliet tells her father '___,' which appears to show ___. This is dramatic irony because ___.","q":"Quote Juliet's declaration of obedience to her father, and explain why it is such a powerful example of dramatic irony.","a":"“Henceforward I am ever ruled by you.” It appears to show total, genuine submission. It's dramatic irony because the audience knows this is a performance to enable a secret plan, so her father's delight is built entirely on a lie he cannot see."},{"k":"short","n":6,"marks":3,"starter":"Juliet repeats the phrase '___' several times, which is a technique called ___. This shows ___.","q":"Quote Juliet's repeated 'What if...' questions, name the technique, and analyse its effect.","a":"“What if this mixture do not work at all?... What if it be a poison... How if, when I am laid into the tomb, I wake...” This repetition is anaphora. It builds her fear methodically, each worry worse than the last, showing genuine panic rather than simple hesitation."}]},{"type":"plenary","key":"h2-end","short":"Exit","mins":6,"title":"Exit ticket","ticket":[{"lvl":"core","q":"Why is Juliet's declaration of obedience to Capulet an example of dramatic irony?","a":"The audience knows it's a complete performance designed to enable her secret escape plan, while Capulet believes it's genuine — creating a gap between what he believes and what we know."},{"lvl":"core","q":"Give one specific fear Juliet lists in her soliloquy before drinking the potion.","a":"Any one of: that the potion won't work; that it's real poison; that she'll wake before Romeo arrives and suffocate; that she'll be driven mad by horror in the vault."},{"lvl":"stretch","q":"Compare the Juliet who performs for her father in 4.2 with the Juliet who speaks alone in 4.3. Use one quotation from each.","a":"In 4.2 she performs total obedience — 'Henceforward I am ever ruled by you' — while in 4.3, alone, she reveals genuine terror — 'I have a faint cold fear thrills through my veins.' The contrast shows how completely isolated she is: she must hide her true self from everyone she loves in order to protect them and herself."}],"next":"Next lesson: the household bustles with wedding preparations, then Juliet is discovered 'dead,' and the act ends with the family's grief and a jarring comic scene."}]},{"title":"Lesson 3","subtitle":"Act 4, Scenes 4–5: the wedding morning, the discovery, and comic relief","aims":{"li":"To understand how Shakespeare builds tension through comic wedding-morning bustle before the shock of Juliet's 'death,' and why he ends the act with the Peter and Musicians comedy.","sc":["I can explain how the comic tone of Scene 4.4 contrasts with what happens in 4.5, using a quotation.","I can explain why the Friar's speech to the grieving family is an example of dramatic irony.","I can explain the dramatic purpose of the Peter and Musicians scene at the end of the act."],"stretch":"I can evaluate why Shakespeare chooses to end Act 4 on a comic scene rather than on the family's grief.","word":{"w":"comic relief","m":"a moment of humour placed after or during a tense or tragic scene, used to release the audience's emotional tension.","eg":"The Peter and Musicians scene is comic relief straight after Juliet's 'death' is discovered. Use the phrase in one sentence today."},"bridge":"Last time: Juliet performed total obedience for her father, the wedding was moved to tomorrow, and — alone at last — she voiced every fear about the plan before drinking the potion anyway."},"steps":[{"type":"aims","key":"h3-aims","short":"Aims","mins":4,"title":"Today's lesson","doNow":{"title":"Do now: predict","qa":[{"q":"The audience already knows Juliet has drunk a potion, not poison. How do you expect Scene 4.4's cheerful wedding-morning bustle to feel, knowing what's coming?","a":"Uncomfortable or ironic — the audience is dreading the discovery that the characters onstage don't yet know is coming."},{"q":"The Nurse goes to wake Juliet expecting a grumpy bride. What do you expect her tone to do the moment she realises something is wrong?","a":"A sudden, jarring shift from playful teasing to real horror and panic."},{"q":"Shakespeare ends this act with a comic scene between a servant and some musicians, right after a family's devastating grief. Why might a playwright do that, rather than end on the sad scene?","a":"To relieve the audience's tension before the interval or next act, and/or to make the family's grief feel even more isolated and pointless by contrast."}]}},{"type":"context","key":"h3-ctx","short":"Before","mins":3,"title":"Before we continue","lead":"Talk first, then tap a card to check your idea.","blocks":[{"h":"Elizabethan mourning customs","prompt":"Why might Shakespeare's audience recognise Capulet's instructions about rosemary and funeral clothes as accurate detail, not invention?","t":"Elizabethan funerals often used rosemary (for remembrance) and required the household to visibly switch from celebration to mourning very quickly — exactly what the Friar describes happening here, practically overnight."},{"h":"The Friar's dramatic irony","prompt":"The Friar alone knows Juliet isn't really dead. What's the risk of him comforting the family so convincingly?","t":"His speech has to be moving enough to satisfy a grieving family, without revealing the secret — a difficult, and slightly uncomfortable, performance from a man of God."},{"h":"Comic relief in tragedy","prompt":"Why might a Shakespearean tragedy include broadly comic scenes at all, rather than staying serious throughout?","t":"Elizabethan audiences expected variety, and comic scenes let a story build then release tension in waves — but placing comedy directly after grief can also feel deliberately jarring or even uncomfortable, which is itself a dramatic choice."}],"side":{"title":"Ideas to track today","items":[{"h":"Dramatic irony","t":"What does the Friar know that the grieving family doesn't — and what does the audience know that everyone onstage doesn't?"},{"h":"Appearance vs. reality","t":"How much of what's said in 4.5 is genuine grief, and how much is ritual, expected language?"},{"h":"Language & technique","t":"Watch for repetition, exclamation, and antithesis (opposites) in the family's grief and the Friar's consolation."}]}},{"type":"extract","key":"e6","short":"4.4 Wedding morning","mins":8,"label":"Extract 1","title":"Act 4, Scene 4: ‘Go, you cot-quean, go’","sub":"The Capulet household bustles through the night, preparing for a wedding that will never happen.","setup":"It's the early hours of the morning. The household is in a flurry of comic, affectionate chaos, preparing food and decorations.","task":"Underline every moment of humour or teasing in this extract. Circle the line where music is mentioned, signalling Paris's arrival.","scene":"4.4","lines":[{"k":"st","t":"Enter Lady Capulet and the Nurse.","key":"s0"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":1,"t":"Hold, take these keys, and fetch more spices, nurse.","g":"Here, take these keys and go fetch more spices, Nurse."},{"k":"sp","t":"Nurse"},{"k":"ln","n":2,"t":"They call for dates and quinces in the pastry.","g":"They're asking for dates and quinces for the pastries."},{"k":"st","t":"Enter Capulet.","key":"s2"},{"k":"sp","t":"Capulet"},{"k":"ln","n":3,"t":"Come, stir, stir, stir! The second cock hath crowed.\nThe curfew bell hath rung. ’Tis three o’clock.—\nLook to the baked meats, good Angelica.\nSpare not for cost.","g":"Come on, move, move! The rooster's crowed twice already, the bell has rung — it's three in the morning. Check on the baked meats, Angelica. Don't worry about the cost."},{"k":"sp","t":"Nurse"},{"k":"ln","n":4,"t":"Go, you cot-quean, go,\nGet you to bed. Faith, you’ll be sick tomorrow\nFor this night’s watching.","g":"Go on, you fussy old housewife, go to bed — honestly, you'll make yourself ill tomorrow from staying up all night."},{"k":"sp","t":"Capulet"},{"k":"ln","n":5,"t":"No, not a whit. What, I have watched ere now\nAll night for lesser cause, and ne’er been sick.","g":"Not at all. I've stayed up all night before for less important reasons, and never got sick."},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":6,"t":"Ay, you have been a mouse-hunt in your time,\nBut I will watch you from such watching now.","g":"Yes, you used to chase women in your younger days — but I'll make sure you don't stay up like that now."},{"k":"sp","t":"Capulet"},{"k":"ln","n":7,"t":"A jealous hood, a jealous hood!","g":"Someone's jealous!"},{"k":"st","t":"Enter three or four Servingmen with spits, logs and baskets.","key":"s7"},{"k":"ln","n":8,"t":"Now fellow,\nWhat is there?","g":"Now then — what have you got there?"},{"k":"sp","t":"First Servingman"},{"k":"ln","n":9,"t":"Things for the cook, sir, but I know not what.","g":"Things for the cook, sir, but I don't know exactly what."},{"k":"sp","t":"Capulet"},{"k":"ln","n":10,"t":"Make haste, make haste.\nSirrah, fetch drier logs.\nCall Peter. He will show thee where they are.","g":"Hurry up, hurry up. You — go get drier logs. Call Peter, he'll show you where they are."}],"notes":[{"id":"n6-1","from":3,"to":7,"title":"Comic banter before catastrophe","meaning":"This whole extract is light, affectionate comedy — Capulet's manic energy, the Nurse teasing him, his own joking reply.","effect":"The warmth and humour here is deliberately placed right before the discovery scene, making the coming shock land even harder by contrast — the audience knows what's coming, even as the characters are cheerfully oblivious.","ask":"How does knowing what's about to happen change how you read this 'funny' scene?","tags":["irony","context"],"support":"This scene is written as comedy, using ___. This creates dramatic irony because the audience knows ___.","revise":true},{"id":"n6-2","from":3,"to":3,"title":"Precise, ordinary detail","meaning":"Capulet's references to the 'second cock,' the curfew bell, and 'three o'clock' ground the scene in specific, realistic time and place.","effect":"This everyday domestic detail makes the household feel real and alive right up until the moment tragedy interrupts it — increasing the contrast to come.","tags":["context","language"]}]},{"type":"link","key":"l5","short":"The music arrives","mins":2,"title":"The music arrives","text":"As dawn breaks, Capulet hears {{Paris}} and his musicians approaching. Delighted, he sends the {{Nurse}} to wake Juliet and get her ready, while he goes to greet the bridegroom himself. The Nurse heads for Juliet's chamber, still cheerfully teasing her about the wedding night to come.","ext":"What do you expect the Nurse's tone to be like as she approaches the bed — and how quickly do you expect it to change?"},{"type":"extract","key":"e7","short":"4.5 Discovery and grief","mins":18,"label":"Extract 2","title":"Act 4, Scene 5: ‘My lady's dead’","sub":"The Nurse discovers Juliet's 'lifeless' body. The family's grief pours out — and the Friar, who alone knows the truth, must comfort them without revealing it.","setup":"The Nurse goes to wake Juliet for her wedding. What she finds changes the whole household in seconds.","task":"Underline the exact moment the Nurse's tone shifts from teasing to horror. Then underline the Friar's speech and mark every place he could be seen as speaking in a kind of double meaning.","think":"With a partner (30 seconds): why might the Friar's comforting speech feel uncomfortable, knowing what he knows?","thinkSecs":30,"scene":"4.5","lines":[{"k":"sp","t":"Second Servingman"},{"k":"ln","n":1,"t":"I have a head, sir, that will find out logs\nAnd never trouble Peter for the matter.","g":"I'm quite capable of finding logs myself, sir, without bothering Peter about it."},{"k":"sp","t":"Capulet"},{"k":"ln","n":2,"t":"Mass, and well said. A merry whoreson, ha!\nThou shalt be loggerhead.\nGood faith, ’tis day.\nThe County will be here with music straight,\nFor so he said he would. I hear him near.—\nNurse!—Wife! What ho!—What, nurse, I say!","g":"Well said — you're a cheerful rascal, ha! You can be in charge of logs then. It's daylight already — Paris will be here soon with musicians, just as he promised. I can hear him getting close. Nurse! Wife! Where is everyone? Nurse, I say!"},{"k":"st","t":"Enter Nurse.","key":"s2"},{"k":"ln","n":3,"t":"Go waken Juliet. Go and trim her up.\nI’ll go and chat with Paris. Hie, make haste,\nMake haste. The bridegroom he is come already.\nMake haste, I say.","g":"Go wake Juliet and get her ready. I'll go greet Paris. Hurry, hurry — the bridegroom's already here. Quickly, I said."},{"k":"sp","t":"Nurse"},{"k":"st","t":"Approaching the bed.","key":"s2b"},{"k":"ln","n":4,"t":"Mistress! What, mistress! Juliet!—Fast, I warrant\nher, she—\nWhy, lamb, why, lady! Fie, you slugabed!\nWhy, love, I say! Madam! Sweetheart! Why, bride!—\nWhat, not a word?—You take your pennyworths\nnow.\nSleep for a week, for the next night, I warrant,\nThe County Paris hath set up his rest\nThat you shall rest but little.—God forgive me,\nMarry, and amen! How sound is she asleep!\nI needs must wake her.—Madam, madam, madam!\nAy, let the County take you in your bed,\nHe’ll fright you up, i’ faith.—Will it not be?","g":"Mistress! Juliet! Fast asleep, I bet — well, lazybones, you sleepyhead! Come on, love, madam, sweetheart, bride! Not a word? You're really making the most of your rest now. Sleep away — I'm sure Paris won't let you sleep much tomorrow night! God forgive me for the joke — but how deeply asleep she is! I really do need to wake her. Madam, madam, madam! Fine — let Paris come and find you in bed, that'll wake you up fast enough! Won't that do it?"},{"k":"ln","n":5,"t":"What, dressed, and in your clothes, and down\nagain?\nI must needs wake you. Lady, lady, lady!—\nAlas, alas! Help, help! My lady’s dead.—\nO, weraday, that ever I was born!—\nSome aqua vitae, ho!—My lord! My lady!","g":"What — you're already dressed, and lying down again? I really must wake you now. Lady, lady, lady!— Oh no, help, help! My lady is dead! Oh, why was I ever born! Someone get brandy! My lord! My lady!"},{"k":"st","t":"Enter Lady Capulet.","key":"s4"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":6,"t":"What noise is here?","g":"What's all this noise?"},{"k":"sp","t":"Nurse"},{"k":"ln","n":7,"t":"O lamentable day!","g":"Oh, terrible day!"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":8,"t":"What is the matter?","g":"What's wrong?"},{"k":"sp","t":"Nurse"},{"k":"ln","n":9,"t":"Look, look!—O heavy day!","g":"Look, look! Oh, what a terrible day!"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":10,"t":"O me! O me! My child, my only life,\nRevive, look up, or I will die with thee.\nHelp, help! Call help.","g":"Oh no! My child, my only reason to live — wake up, look at me, or I'll die alongside you. Help, someone help!"},{"k":"st","t":"Enter Capulet.","key":"s9"},{"k":"sp","t":"Capulet"},{"k":"ln","n":11,"t":"For shame, bring Juliet forth. Her lord is come.","g":"Come on, bring Juliet out — her husband-to-be has arrived."},{"k":"sp","t":"Nurse"},{"k":"ln","n":12,"t":"She’s dead, deceased. She’s dead, alack the day!","g":"She's dead, she's passed away. She's dead, what a terrible day!"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":13,"t":"Alack the day, she’s dead, she’s dead, she’s dead.","g":"What a terrible day — she's dead, she's dead, she's dead."},{"k":"sp","t":"Capulet"},{"k":"ln","n":14,"t":"Ha, let me see her! Out, alas, she’s cold.\nHer blood is settled, and her joints are stiff.\nLife and these lips have long been separated.\nDeath lies on her like an untimely frost\nUpon the sweetest flower of all the field.","g":"Let me see her! Oh no, she's cold. Her blood has stopped moving, her joints are stiff. Life left these lips a long time ago, it seems. Death has settled on her like an early frost on the loveliest flower in the field."},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":15,"t":"O woeful time!","g":"What a terrible time this is!"},{"k":"sp","t":"Capulet"},{"k":"ln","n":16,"t":"Death, that hath ta’en her hence to make me wail,\nTies up my tongue and will not let me speak.","g":"Death, which has taken her away to make me weep, has left me almost unable to speak."},{"k":"st","t":"Enter Friar Lawrence and Paris, with Musicians.","key":"s15"},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":17,"t":"Come, is the bride ready to go to church?","g":"Come now, is the bride ready to go to church?"},{"k":"sp","t":"Capulet"},{"k":"ln","n":18,"t":"Ready to go, but never to return.—\nO son, the night before thy wedding day\nHath Death lain with thy wife. There she lies,\nFlower as she was, deflowerèd by him.\nDeath is my son-in-law; Death is my heir.\nMy daughter he hath wedded. I will die\nAnd leave him all. Life, living, all is Death’s.","g":"Ready to leave — but never to come back. Son, the night before your wedding, Death has taken your wife. There she lies, once a flower, now destroyed by him. Death is my son-in-law now; Death is my heir. He's married my daughter. I will die and leave everything to him — life, my whole estate, it's all Death's now."},{"k":"sp","t":"Paris"},{"k":"ln","n":19,"t":"Have I thought long to see this morning’s face,\nAnd doth it give me such a sight as this?","g":"Have I waited so eagerly for this morning, only for it to show me this?"},{"k":"sp","t":"Lady Capulet"},{"k":"ln","n":20,"t":"Accursed, unhappy, wretched, hateful day!\nMost miserable hour that e’er time saw\nIn lasting labor of his pilgrimage!\nBut one, poor one, one poor and loving child,\nBut one thing to rejoice and solace in,\nAnd cruel death hath catched it from my sight!","g":"This cursed, wretched, hateful day! The most miserable hour time has ever produced! I had only one child, one thing in the world to bring me joy and comfort — and cruel death has snatched her away from me."},{"k":"sp","t":"Nurse"},{"k":"ln","n":21,"t":"O woe, O woeful, woeful, woeful day!\nMost lamentable day, most woeful day\nThat ever, ever I did yet behold!\nO day, O day, O day, O hateful day!\nNever was seen so black a day as this!\nO woeful day, O woeful day!","g":"Oh, what a woeful, woeful, woeful day! The saddest day I've ever seen in my whole life! Oh day, oh hateful day! Never has such a black day been seen!"},{"k":"sp","t":"Paris"},{"k":"ln","n":22,"t":"Beguiled, divorcèd, wrongèd, spited, slain!\nMost detestable death, by thee beguiled,\nBy cruel, cruel thee quite overthrown!\nO love! O life! Not life, but love in death!","g":"Deceived, torn apart, wronged, cheated, killed! Hateful death, tricked me, completely destroyed by your cruelty! Oh love, oh life — not life anymore, just love surviving in death."},{"k":"sp","t":"Capulet"},{"k":"ln","n":23,"t":"Despised, distressèd, hated, martyred, killed!\nUncomfortable time, why cam’st thou now\nTo murder, murder our solemnity?\nO child! O child! My soul and not my child!\nDead art thou! Alack, my child is dead,\nAnd with my child my joys are burièd.","g":"Despised, distressed, hated, brutally killed! Cruel timing — why did you come now to destroy our celebration? Oh my child, my very soul, not just my child! You're dead! And with you, all my happiness is buried too."},{"k":"sp","t":"Friar Laurence"},{"k":"ln","n":24,"t":"Peace, ho, for shame! Confusion’s cure lives not\nIn these confusions. Heaven and yourself\nHad part in this fair maid. Now heaven hath all,\nAnd all the better is it for the maid.\nYour part in her you could not keep from death,\nBut heaven keeps his part in eternal life.\nThe most you sought was her promotion,\nFor ’twas your heaven she should be advanced;\nAnd weep you now, seeing she is advanced\nAbove the clouds, as high as heaven itself?\nO, in this love you love your child so ill\nThat you run mad, seeing that she is well.\nShe’s not well married that lives married long,\nBut she’s best married that dies married young.","g":"Quiet, for shame! Chaotic grief like this doesn't fix anything. Both heaven and you had a share in this lovely girl — now heaven has all of her, which is actually better for her. You couldn't stop your share of her from dying, but heaven keeps its share forever. All you really wanted was to see her rise in the world — and now she has risen higher than any of us, into heaven itself. Are you really going to weep over that? You love her so intensely that you're going mad with grief, when really she is at peace. A woman isn't well married by living married a long time — she's best married if she dies while the marriage is still young and happy."},{"k":"ln","n":25,"t":"Dry up your tears, and stick your rosemary\nOn this fair corse, and, as the custom is,\nAnd in her best array, bear her to church,\nFor though fond nature bids us all lament,\nYet nature’s tears are reason’s merriment.\nAll things that we ordainèd festival\nTurn from their office to black funeral:\nOur instruments to melancholy bells,\nOur wedding cheer to a sad burial feast,\nOur solemn hymns to sullen dirges change,\nOur bridal flowers serve for a buried corse,\nAnd all things change them to the contrary.","g":"Dry your tears, place rosemary (for remembrance) on her body, and — as is the custom — carry her to church in her finest clothes. Though it's natural to grieve, reason should temper those tears. Everything we planned for celebration must now serve mourning instead: our wedding music becomes funeral bells, our wedding feast becomes a burial feast, our wedding hymns become funeral dirges, our wedding flowers now decorate a corpse. Everything is reversed."},{"k":"ln","n":26,"t":"Sir, go you in, and, madam, go with him,\nAnd go, Sir Paris. Everyone prepare\nTo follow this fair corse unto her grave.\nThe heavens do lour upon you for some ill.\nMove them no more by crossing their high will.","g":"Sir, go inside, and madam, go with him, and Paris too. Everyone prepare to follow her body to her grave. Heaven already looks unhappy with you for something — don't anger it further by resisting its will."},{"k":"st","t":"All but the Nurse and the Musicians exit.","key":"s25"},{"k":"sp","t":"First Musician"},{"k":"ln","n":27,"t":"Faith, we may put up our pipes and be gone.","g":"Well, I suppose we can pack up our instruments and leave."},{"k":"sp","t":"Nurse"},{"k":"ln","n":28,"t":"Honest good fellows, ah, put up, put up,\nFor, well you know, this is a pitiful case.","g":"Good honest fellows, yes, pack up — you know this is a pitiful situation."},{"k":"sp","t":"First Musician"},{"k":"ln","n":29,"t":"Ay, by my troth, the case may be amended.","g":"True enough — though our situation (getting paid) could still be improved."},{"k":"st","t":"Nurse exits.","key":"s28"}],"notes":[{"id":"n7-1","from":4,"to":5,"title":"Comedy collapses into horror","meaning":"The Nurse's teasing, bawdy jokes about the wedding night ('take your pennyworths now') continue right up until the exact moment she realises Juliet won't wake.","effect":"This abrupt tonal shift — from comic innuendo to genuine panic within a single speech — mirrors the audience's own experience: enjoying the comedy while dreading what we know is coming.","ask":"Find the precise word or line where the Nurse's tone changes. What effect does that sudden shift create?","tags":["irony","language"],"support":"The Nurse's speech shifts from ___ to ___ at the line '___.' This creates ___.","revise":true},{"id":"n7-2","from":20,"to":23,"title":"A chorus of grief: repetition and exclamation","meaning":"Lady Capulet, the Nurse, Paris, and Capulet each deliver highly repetitive, exclamatory speeches, piling up near-synonyms ('accursèd, unhappy, wretched, hateful,' 'despised, distressèd, hated, martyred, killed').","effect":"This stacked repetition was a recognised Elizabethan convention for expressing formal grief (sometimes called a lament) — to a modern reader it can feel almost ritualistic or performed, which is itself worth questioning: is this raw emotion, expected convention, or both?","ask":"Do these speeches feel like real grief to you, or like everyone reciting an expected script? Why might Shakespeare want that ambiguity?","tags":["language","appearance"],"support":"Each character piles up near-identical words, such as '___.' This technique is called ___, and its effect is ___.","stretch":"Compare this scene's grief to Romeo's despair in 3.3 or Juliet's in 3.5. What's different about grief performed for an audience of other characters versus grief spoken alone?","revise":true},{"id":"n7-3","at":18,"phrase":"Death is my son-in-law; Death is my heir.","title":"Extended personification: Death as a person","meaning":"Capulet describes Death as if it were a literal rival bridegroom, who has 'married' Juliet and will now inherit the Capulet estate.","effect":"This unsettling, almost macabre metaphor turns abstract loss into a concrete, personal rival — Capulet can only process his daughter's 'death' by imagining a real person to blame and resent.","tags":["language","fate"]},{"id":"n7-4","from":24,"to":26,"title":"Dramatic irony: the Friar's double-edged comfort","meaning":"The Friar delivers a moving, theologically framed speech about Juliet being 'advanced' to heaven — while being the only person present who knows she is not actually dead at all.","effect":"Every reassurance he offers is technically true in a way only the audience can fully appreciate (she genuinely will 'wake' soon) — making this speech one of the most striking uses of dramatic irony in the whole play, since the speaker himself is knowingly performing.","ask":"Is the Friar lying here, or just being carefully vague? Does it matter, given what he knows?","tags":["irony","context"],"support":"The Friar tells the family '___,' which the family take to mean ___. The audience knows this is ironic because ___.","stretch":"The Friar's language ('she's best married that dies married young') is technically true of Juliet's real situation (a secret marriage, now interrupted) in a way he can't openly explain. Track how many of his specific word choices work on this double level.","revise":true},{"id":"n7-5","at":25,"phrase":"Our solemn hymns to sullen dirges change,","title":"Antithesis: wedding reversed into funeral","meaning":"The Friar lists a series of direct opposites — instruments to bells, wedding cheer to burial feast, hymns to dirges, bridal flowers to funeral flowers — showing every wedding preparation converted into its funeral equivalent.","effect":"This structured antithesis makes the reversal feel total and inescapable: nothing from the morning's celebration survives untouched, visually and verbally converting joy into grief line by line.","tags":["language"]}]},{"type":"link","key":"l6","short":"Left behind","mins":2,"title":"Left behind","text":"As the grieving family follows the Friar's instructions and exits to prepare the funeral, only the Nurse and the wedding {{musicians}} remain onstage. Before she too leaves, {{Peter}} — a Capulet servant — bursts in, apparently unaware of, or unbothered by, the tragedy that has just unfolded.","ext":"Why might Shakespeare choose this exact moment — right after the family's grief — to bring in a comic character?"},{"type":"extract","key":"e8","short":"4.5 Peter and the Musicians","mins":12,"label":"Extract 3","title":"Act 4, Scene 5: ‘Hang him, Jack’","sub":"In a sudden, jarring tonal shift, Peter argues with the wedding musicians over pay and wordplay, closing the act on comedy.","setup":"The mourning family has just exited. Peter, a servant, demands the musicians play something to comfort him.","task":"Underline every pun or piece of wordplay in this extract. Circle the final line of the act, and note its tone compared to the scene before.","scene":"4.5","lines":[{"k":"st","t":"Enter Peter.","key":"s0"},{"k":"sp","t":"Peter"},{"k":"ln","n":30,"t":"Musicians, O musicians, “Heart’s ease,”\n“Heart’s ease.” O, an you will have me live, play\n“Heart’s ease.”","g":"Musicians, oh musicians — play 'Heart's Ease.' If you want me to survive this, play 'Heart's Ease.'"},{"k":"sp","t":"First Musician"},{"k":"ln","n":31,"t":"Why “Heart’s ease?”","g":"Why that song?"},{"k":"sp","t":"Peter"},{"k":"ln","n":32,"t":"O musicians, because my heart itself plays “My\nheart is full.” O, play me some merry dump to\ncomfort me.","g":"Because my own heart is playing 'My Heart Is Full' — play me something cheerful to comfort me."},{"k":"sp","t":"First Musician"},{"k":"ln","n":33,"t":"Not a dump, we. ’Tis no time to play\nnow.","g":"We're not playing anything — it's not the time for music right now."},{"k":"sp","t":"Peter"},{"k":"ln","n":34,"t":"You will not then?","g":"So you won't play, then?"},{"k":"sp","t":"First Musician"},{"k":"ln","n":35,"t":"No.","g":"No."},{"k":"sp","t":"Peter"},{"k":"ln","n":36,"t":"I will then give it you soundly.","g":"Then I'll give you a real telling-off."},{"k":"sp","t":"First Musician"},{"k":"ln","n":37,"t":"What will you give us?","g":"What exactly will you give us?"},{"k":"sp","t":"Peter"},{"k":"ln","n":38,"t":"No money, on my faith, but the gleek. I will give\nyou the minstrel.","g":"No money, honestly — just an insult. I'll call you a lowly 'minstrel.'"},{"k":"sp","t":"First Musician"},{"k":"ln","n":39,"t":"Then will I give you the\nserving-creature.","g":"Then I'll call you a mere 'servant' right back."},{"k":"sp","t":"Peter"},{"k":"ln","n":40,"t":"Then will I lay the serving-creature’s dagger on\nyour pate. I will carry no crochets. I’ll re you, I’ll fa\nyou. Do you note me?","g":"Then I'll hit you on the head with this 'servant's' dagger. I won't put up with your quibbling — I'll give you a piece of my mind. Do you understand me?"},{"k":"sp","t":"First Musician"},{"k":"ln","n":41,"t":"An you re us and fa us, you note us.","g":"If you're going to lecture us, at least you're paying us some attention."},{"k":"sp","t":"Second Musician"},{"k":"ln","n":42,"t":"Pray you, put up your dagger and\nput out your wit.","g":"Please, put away your dagger and stop trying to be clever."},{"k":"sp","t":"Peter"},{"k":"ln","n":43,"t":"Then have at you with my wit. I will dry-beat\nyou with an iron wit, and put up my iron dagger.\nAnswer me like men.\nWhen griping griefs the heart doth wound\nAnd doleful dumps the mind oppress,\nThen music with her silver sound—\nWhy “silver sound”? Why “music with her silver\nsound”? What say you, Simon Catling?","g":"Then I'll attack you with wit instead, and put my real dagger away. Answer me properly. (Sings a verse about grief and music.) Why does the song say 'silver sound'? What do you think, Simon Catling?"},{"k":"sp","t":"First Musician"},{"k":"ln","n":44,"t":"Marry, sir, because silver hath a\nsweet sound.","g":"Well sir, because silver makes a lovely sound."},{"k":"sp","t":"Peter"},{"k":"ln","n":45,"t":"Prates.—What say you, Hugh Rebeck?","g":"Nonsense. What do you say, Hugh Rebeck?"},{"k":"sp","t":"Second Musician"},{"k":"ln","n":46,"t":"I say “silver sound” because musicians\nsound for silver.","g":"I say 'silver sound' because musicians play for silver — that is, money."},{"k":"sp","t":"Peter"},{"k":"ln","n":47,"t":"Prates too.—What say you, James Soundpost?","g":"Also nonsense. What about you, James Soundpost?"},{"k":"sp","t":"Third Musician"},{"k":"ln","n":48,"t":"Faith, I know not what to say.","g":"Honestly, I don't know what to say."},{"k":"sp","t":"Peter"},{"k":"ln","n":49,"t":"O, I cry you mercy. You are the singer. I will say\nfor you. It is “music with her silver sound” because\nmusicians have no gold for sounding:\nThen music with her silver sound\nWith speedy help doth lend redress.","g":"Oh, forgive me, you're just the singer. I'll answer for you — it's 'silver sound' because musicians never actually get paid in gold! (Finishes the song.)"},{"k":"st","t":"Peter exits.","key":"s48"},{"k":"sp","t":"First Musician"},{"k":"ln","n":50,"t":"What a pestilent knave is this same!","g":"What an annoying rascal he is!"},{"k":"sp","t":"Second Musician"},{"k":"ln","n":51,"t":"Hang him, Jack. Come, we’ll in\nhere, tarry for the mourners, and stay dinner.","g":"Forget him. Come on, let's go in, wait for the mourners, and stay for dinner."},{"k":"st","t":"They exit.","key":"s50"}],"notes":[{"id":"n8-1","from":30,"to":49,"title":"Bawdy wordplay as a change of register","meaning":"Peter and the Musicians trade puns on musical terms ('crotchets,' 're,' 'fa'), insults ('minstrel,' 'serving-creature'), and jokes about being paid in 'silver' rather than 'gold.'","effect":"The sudden switch to prose, comic insults, and low wordplay — after the highly formal, poetic grief of the previous extract — is jarring by design: it shows Shakespeare deliberately breaking tension rather than letting it build.","ask":"How does reading this scene immediately after the family's grief change how funny (or uncomfortable) it feels?","tags":["language","context"],"support":"This scene uses techniques such as ___ to create comedy. Placed directly after ___, its effect on the audience is ___.","revise":true},{"id":"n8-2","from":50,"to":51,"title":"A callous final line","meaning":"The act ends not with anyone mourning Juliet, but with a musician shrugging off Peter's rudeness and suggesting they 'stay dinner' — treating the tragedy as simply an inconvenience to their pay.","effect":"This closing note is almost shockingly indifferent: ordinary life (and appetite) carries on around the family's devastation, which can make Juliet's 'death' feel both intensely personal to the Capulets and, to everyone else, barely worth noting.","ask":"Why might Shakespeare choose to end the act on this note, rather than on grief?","tags":["irony","ahead"],"stretch":"Consider the structural purpose of ending an act on comic relief rather than tragedy. What does it do to an audience's emotional pacing before Act 5 begins?"}]},{"type":"practice","key":"h3-practice","short":"Practice","mins":12,"title":"Quick practice: Scenes 4.4–4.5","sub":"Write your answers first. Then tap a question to check.","tipsTitle":"What earns marks","tips":[{"h":"1-mark plot questions","t":"One clear, short answer — don't overwrite."},{"h":"3-mark analysis questions","t":"Quote it, explain it in your own words, then analyse the effect or technique. One mark per part."}],"qs":[{"k":"short","n":1,"marks":1,"q":"Who discovers that Juliet appears to be dead?","a":"The Nurse."},{"k":"short","n":2,"marks":1,"q":"What does Capulet compare Death to, calling him a member of the family?","a":"His 'son-in-law' and 'heir.'"},{"k":"short","n":3,"marks":1,"q":"What does the Friar tell the family to place on Juliet's body, following custom?","a":"Rosemary."},{"k":"short","n":4,"marks":1,"q":"Who remains onstage after the grieving family exits, and who bursts in moments later?","a":"The Nurse and the Musicians remain; Peter bursts in."},{"k":"short","n":5,"marks":3,"starter":"The Friar tells the family '___,' which they understand to mean ___. This is dramatic irony because ___.","q":"Quote a line from the Friar's consoling speech, explain how the family understands it, and analyse why it is dramatic irony.","a":"“She's not well married that lives married long, / But she's best married that dies married young.” The family hear this as religious comfort about her soul. It's dramatic irony because the Friar alone knows she isn't really dead — his words are technically true of her real, secret situation in a way no one else present can understand."},{"k":"short","n":6,"marks":3,"starter":"Shakespeare places the comic scene with Peter and the Musicians directly after ___. This technique is called ___, and its effect is ___.","q":"Explain why Shakespeare ends the act with the Peter and Musicians scene, and analyse its effect on the audience.","a":"The comedy comes directly after the family's grief. This is comic relief — it releases the audience's built-up tension, but the callous final line ('tarry for the mourners, and stay dinner') also makes the tragedy feel isolating, since ordinary life carries on so carelessly around it."}]},{"type":"plenary","key":"h3-end","short":"Exit","mins":8,"title":"Exit ticket","ticket":[{"lvl":"core","q":"How does the Nurse's tone change between the start and end of her speech at Juliet's bedside?","a":"It shifts from playful, bawdy teasing about the wedding night to sudden panic and grief once she realises Juliet won't wake."},{"lvl":"core","q":"Why is the Friar's consoling speech to the family a powerful example of dramatic irony?","a":"He is the only person present who knows Juliet is not really dead, so his comforting words about her soul being 'advanced' to heaven are technically true of her real situation in a way the grieving family cannot possibly understand."},{"lvl":"stretch","q":"Evaluate why Shakespeare chooses to end Act 4 on the comic Peter and Musicians scene rather than on the family's grief. Use one quotation.","a":"Ending on comedy ('Hang him, Jack... tarry for the mourners, and stay dinner') releases the audience's emotional tension after the highly repetitive, formal grief speeches, but its careless tone can also make the family's loss feel isolating — the wider world barely pauses for what feels, to the Capulets, like the end of everything."}],"next":"Act 5: Romeo, in exile in Mantua, hears the devastating news of Juliet's 'death' — without ever learning the truth of the plan."}]}],"QUIZ":[{"q":"Why does Juliet answer Paris's questions without ever directly lying to him?","opts":["She genuinely isn't sure how she feels","She is secretly already married to Romeo and can't say so","She wants to make Paris jealous","She is testing whether Paris truly loves her"],"correct":1,"why":"Juliet is secretly married to Romeo, so she equivocates — giving technically true answers that Paris misunderstands, without ever outright lying."},{"q":"What does Juliet threaten to do with the knife she brings to Friar Laurence's cell?","opts":["Attack her father","Threaten the Nurse","Kill herself rather than marry Paris","Force the Friar to help her escape"],"correct":2,"why":"Juliet tells the Friar that if he has no solution, she will use the knife to kill herself rather than commit bigamy by marrying Paris."},{"q":"What does the vial the Friar gives Juliet actually do?","opts":["Cures her of her grief","Makes her appear dead for forty-two hours","Puts her into a permanent sleep","Poisons her instantly"],"correct":1,"why":"The potion creates all the physical signs of death — no pulse, no warmth, no breath — for exactly forty-two hours, after which Juliet will wake naturally."},{"q":"Why is it especially risky that Capulet decides to move the wedding to Wednesday instead of Thursday?","opts":["Because Paris is out of town on Wednesday","Because it gives the Friar's plan less time to work safely","Because the church is unavailable on Wednesday","Because Lady Capulet refuses to attend"],"correct":1,"why":"The Friar's plan was calculated around the original Thursday wedding. Capulet's sudden, excited decision to move it earlier threatens to unravel the careful timing the whole plan depends on."},{"q":"In Scene 4.2, how does Juliet convince her father she has changed her mind about the marriage?","opts":["She writes him a letter","She performs total, exaggerated obedience","She asks the Nurse to speak for her","She avoids him completely"],"correct":1,"why":"Juliet kneels and declares 'Henceforward I am ever ruled by you' — a performance so convincing that Capulet is delighted and moves the wedding forward."},{"q":"What technique does Shakespeare use repeatedly in Juliet's Scene 4.3 soliloquy to build her rising panic?","opts":["Rhyming couplets","Repeated 'What if...' questions","Direct address to the audience","Comic wordplay"],"correct":1,"why":"Juliet repeats the structure 'What if this mixture do not work at all?... What if it be a poison...' — this anaphora builds her fear methodically, each worry worse than the last."},{"q":"Whose ghost does Juliet imagine seeing just before she drinks the potion?","opts":["Romeo's","Her own","Tybalt's","Mercutio's"],"correct":2,"why":"In her terror, Juliet pictures Tybalt's ghost hunting for Romeo in the vault — a vivid, almost hallucinatory moment before she calls Romeo's name and drinks."},{"q":"What is the tonal effect of Scene 4.4's comic wedding-morning bustle, placed right before the discovery scene?","opts":["It has no effect on the audience","It makes the coming shock feel even sharper by contrast","It suggests the wedding will actually go ahead happily","It shows Capulet has forgotten about the wedding"],"correct":1,"why":"The warmth and humour of the household's preparations are deliberately placed right before tragedy strikes, so the audience — who already knows the truth — feels the contrast keenly."},{"q":"Why is the Friar's consoling speech to the grieving family such a striking example of dramatic irony?","opts":["He accidentally reveals the truth","He alone knows Juliet isn't really dead, so his comfort is technically accurate in a way no one else can grasp","He refuses to comfort them at all","He blames Capulet for Juliet's death"],"correct":1,"why":"The Friar tells the family Juliet is 'best married that dies married young' — true of her real secret situation, but the family can only hear it as religious comfort, since only the audience and the Friar know the truth."},{"q":"What does Capulet compare Death to, in his grief after Juliet is found 'dead'?","opts":["A thief","His son-in-law and heir","A silent judge","An old enemy"],"correct":1,"why":"Capulet personifies Death as a rival bridegroom: 'Death is my son-in-law; Death is my heir. My daughter he hath wedded.'"},{"q":"What is the dramatic purpose of the Peter and Musicians scene at the very end of Act 4?","opts":["To introduce a new plot twist","To provide comic relief and contrast with the family's grief","To reveal that Juliet is still alive","To delay Romeo's journey to Verona"],"correct":1,"why":"Placed directly after the family's grief, this bawdy comic scene releases audience tension, but its careless final line ('tarry for the mourners, and stay dinner') also makes the tragedy feel isolating."},{"q":"By the end of Act 4, what does the audience know that almost no character onstage knows?","opts":["That Paris secretly loves someone else","That Juliet is not actually dead, and the Friar's plan is still in motion","That Romeo has already returned to Verona","That Capulet regrets arranging the marriage"],"correct":1,"why":"The audience (and the Friar) know Juliet has only taken a sleeping potion — creating intense dramatic irony as the family, and soon Romeo, believe she has truly died."}]};
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (s) => esc(s).replace(/\[([^\]]+)\]/g, '<i class="sd">[$1]</i>').replace(/\n/g, "<br>");
+const SHORT = { fate: "Fate", conflict: "Conflict", family: "Family", love: "Love", language: "Language", appearance: "Appearance", irony: "Irony", context: "Context", ahead: "Look ahead" };
+const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ratings are the only thing kept on the device, and only if the browser allows it */
+const RKEY = "rj-act3-ratings";
+function loadRate() { try { return JSON.parse(localStorage.getItem(RKEY) || "{}"); } catch (e) { return {}; } }
+function saveRate() { try { localStorage.setItem(RKEY, JSON.stringify(S.rate)); } catch (e) { /* storage unavailable */ } }
+
+/* S.drawer: which side panel is open (null = closed). S.wide / S.mainHidden: how the two panes share the screen. S.focus: extract-only mode. */
+const S = { view: "lesson", h: 0, s: 0, tag: "all", sel: null, scale: 1, drawer: null, wide: false, mainHidden: false, focus: false, gloss: true,
+  rev: { tab: "quotes", tag: "all", quiz: null }, rate: loadRate(), battle: { r: 0, meter: 20, picked: null } };
+const cur = () => DATA.hours[S.h].steps[S.s];
+let DR = {}; /* drawers of the step on screen */
+
+/* order notes by position in the text */
+DATA.hours.forEach((h) => h.steps.forEach((st) => {
+  if (st.type !== "extract") return;
+  const posOf = (n) => {
+    let i;
+    if (n.stage) i = st.lines.findIndex((l) => l.k === "st" && l.key === n.stage);
+    else { const ln = n.at !== undefined ? n.at : n.from; i = st.lines.findIndex((l) => l.k === "ln" && l.n === ln); }
+    return i * 1000 + (n.phrase && !n.stage ? Math.max(0, (st.lines[i].t || "").indexOf(n.phrase)) : 0);
+  };
+  st.notes.forEach((n) => (n._pos = posOf(n)));
+  st.notes.sort((a, b) => a._pos - b._pos);
+}));
+
+const tagOK = (n, tag) => tag === "all" || n.tags.includes(tag);
+const match = (n) => tagOK(n, S.tag);
+const visible = (st) => st.notes.filter(match);
+const byId = (st, id) => st.notes.find((n) => n.id === id);
+
+/* ---------- top bar: lessons menu + navigation ---------- */
+function renderTop() {
+  $("#lbl").textContent = S.view === "revise" ? "Revise" : DATA.hours[S.h].title;
+  $("#lmenu").innerHTML = DATA.hours.map((h, i) =>
+    `<button class="lm${S.view === "lesson" && i === S.h ? " on" : ""}" data-h="${i}"><b>${esc(h.title)}</b><small>${esc(h.subtitle)}</small></button>`).join("") +
+    `<button class="lm rev${S.view === "revise" ? " on" : ""}" data-view="revise"><b>Revise</b><small>Practise at home</small></button>`;
+}
+function renderNav() {
+  const nav = $("#nav");
+  if (S.view === "revise") {
+    const tabs = [["quotes", "Key quotes"], ["quiz", "Quick quiz"], ["gaps", "Gap-fills"], ["ready", "Am I ready?"]];
+    nav.innerHTML = `<div class="tabs2" role="tablist">${tabs.map(([k, l]) => `<button class="tab${S.rev.tab === k ? " on" : ""}" data-tab="${k}">${l}</button>`).join("")}</div>`;
+    return;
+  }
+  const h = DATA.hours[S.h], n = h.steps.length;
+  const first = S.h === 0 && S.s === 0;
+  const lastStep = S.s === n - 1, lastAll = S.h === DATA.hours.length - 1 && lastStep;
+  const nextLabel = !lastStep ? `Next: ${esc(h.steps[S.s + 1].short)}` : lastAll ? "Finished" : "Next lesson";
+  nav.innerHTML =
+    `<button class="btn back" data-act="prev" ${first ? "disabled" : ""} aria-label="${S.s === 0 && !first ? "Last lesson" : "Back"}"><i class="ic ic-back"></i><span class="tx">${S.s === 0 && !first ? "Last lesson" : "Back"}</span></button>` +
+    `<ol class="steps">` + h.steps.map((s, i) =>
+      `<li class="${i < S.s ? "done" : ""}"><button class="stp ${s.type}${i === S.s ? " on" : ""}${i < S.s ? " done" : ""}" data-s="${i}" title="${esc(s.short)} · about ${s.mins} min" ${i === S.s ? 'aria-current="step"' : ""}><span class="pn">${i + 1}</span><span class="pl">${esc(s.short)}</span></button></li>`).join("") + `</ol>` +
+    `<button class="btn primary next" data-act="next" ${lastAll ? "disabled" : ""}><span class="tx">${nextLabel}</span><i class="ic ic-next"></i></button>`;
+}
+
+/* ---------- bottom bar: theme filters (notes) ---------- */
+function chipRow(notes, active) {
+  const counts = {};
+  notes.forEach((n) => n.tags.forEach((t) => (counts[t] = (counts[t] || 0) + 1)));
+  return `<span class="fl">Show notes about</span><button class="chip${active === "all" ? " on" : ""}" data-tag="all">All (${notes.length})</button>` +
+    Object.keys(DATA.TAGS).filter((t) => counts[t]).map((t) =>
+      `<button class="chip tg-${t}${active === t ? " on" : ""}" data-tag="${t}"><i class="dot"></i>${esc(SHORT[t])} (${counts[t]})</button>`).join("");
+}
+function renderFilters() {
+  const el = $("#filters");
+  if (S.view === "revise") {
+    if (S.rev.tab !== "quotes") { el.hidden = true; return; }
+    el.hidden = false; el.innerHTML = chipRow(reviseNotes().map((x) => x.n), S.rev.tag); return;
+  }
+  const st = cur();
+  if (st.type !== "extract") { el.hidden = true; return; }
+  el.hidden = false;
+  const has = new Set(); st.notes.forEach((n) => n.tags.forEach((t) => has.add(t)));
+  if (S.tag !== "all" && !has.has(S.tag)) S.tag = "all";
+  el.innerHTML = chipRow(st.notes, S.tag);
+}
+
+/* ---------- shared pieces ---------- */
+function qaCards(qa) {
+  return qa.map((q) => `<div class="qa ${q.lvl || ""}" role="button" tabindex="0" data-qa>${q.lvl ? `<span class="lv">${q.lvl === "core" ? "Core" : "Stretch"}</span>` : ""}<div class="qq">${esc(q.q)}</div><div class="aa">${esc(q.a)}</div></div>`).join("");
+}
+function ratingHTML(h) {
+  const A = DATA.hours[h].aims;
+  const items = [...A.sc, A.stretch];
+  return items.map((t, i) => {
+    const v = S.rate[h + ":" + i];
+    return `<div class="rate"><p>${i === A.sc.length ? "<b>Stretch:</b> " : ""}${esc(t)}</p><div class="rbtns">` +
+      ["Not yet", "Nearly", "Got it"].map((l, k) => `<button class="rb${v === k ? " on" : ""}" data-rate="${h}:${i}:${k}">${l}</button>`).join("") + `</div></div>`;
+  }).join("");
+}
+function clozeParts(text) {
+  let i = 0;
+  const html = esc(text).replace(/\{\{(.+?)\}\}/g, (m, a) => { i++; return `<span class="gap" data-gap role="button" tabindex="0"><sup>${i}</sup><span class="ans">${esc(a)}</span></span>`; });
+  const bank = [...text.matchAll(/\{\{(.+?)\}\}/g)].map((m) => m[1]).sort((a, b) => a.localeCompare(b));
+  return { html, bank };
+}
+function hingeHTML(hg) {
+  return `<div class="hinge"><div class="lab">Quick check: vote, then reveal</div><p class="hq">${esc(hg.q)}</p>` +
+    hg.opts.map((o, i) => `<button class="opt" data-hinge="${i}">${"ABCD"[i]}&nbsp; ${esc(o)}</button>`).join("") +
+    `<div class="row"><button class="ghost small" data-act="hingeshow">Show answer</button></div><div class="hres" hidden></div></div>`;
+}
+const ideas = (items) => items.map((i) => `<div class="idea"><b>${esc(i.h)}</b><p>${esc(i.t)}</p></div>`).join("");
+
+/* ---------- the extract ---------- */
+function annSpans(text, notes) {
+  const marks = [];
+  notes.forEach((n) => { const i = text.indexOf(n.phrase); if (i >= 0) marks.push({ s: i, e: i + n.phrase.length, n }); });
+  marks.sort((a, b) => a.s - b.s);
+  let out = "", p = 0;
+  marks.forEach((m) => {
+    out += fmt(text.slice(p, m.s));
+    out += `<span class="ann${match(m.n) ? "" : " dim"}" data-note="${m.n.id}" role="button" tabindex="0">${fmt(text.slice(m.s, m.e))}</span>`;
+    p = m.e;
+  });
+  return out + fmt(text.slice(p));
+}
+function quoteOf(st, n) {
+  if (n.phrase) return n.phrase;
+  const ls = st.lines.filter((l) => l.k === "ln" && l.n >= n.from && l.n <= n.to).map((l) => l.t);
+  return ls.length > 2 ? ls[0] + " … " + ls[ls.length - 1] : ls.join(" / ");
+}
+function notePanel(st, n) {
+  const vis = visible(st), idx = vis.findIndex((x) => x.id === n.id);
+  const tiers = (n.support || n.stretch)
+    ? `<div class="tierbtns">${n.support ? `<button class="ghost small" data-act="tog" data-t="sup">Need a starter?</button>` : ""}${n.stretch ? `<button class="ghost small" data-act="tog" data-t="str">Push further</button>` : ""}</div>` +
+      (n.support ? `<div class="tier sup" hidden><b>Sentence starter</b>${esc(n.support)}</div>` : "") +
+      (n.stretch ? `<div class="tier str" hidden><b>Stretch question</b>${esc(n.stretch)}</div>` : "")
+    : "";
+  return `<div class="ptop"><span>Note ${idx + 1} of ${vis.length}</span></div>` +
+    `<p class="q">${fmt(quoteOf(st, n))}</p><h3>${esc(n.title)}</h3>` +
+    `<div class="lab">In plain English</div><p>${esc(n.meaning)}</p>` +
+    `<div class="lab">Why it matters</div><p>${esc(n.effect)}</p>` +
+    (n.ask ? `<div class="ask"><b>Ask the class</b><p>${esc(n.ask)}</p></div>` : "") + tiers +
+    `<div class="tagrow">${n.tags.map((t) => `<span class="chip tg-${t}"><i class="dot"></i>${esc(DATA.TAGS[t])}</span>`).join("")}</div>` +
+    `<div class="notenav"><button data-act="pn">◀ Previous note</button><button data-act="nn">Next note ▶</button></div>`;
+}
+function scenePanel(st) {
+  return `<p class="lead">${esc(st.setup)}</p>` +
+    (st.think ? `<div class="think"><b>Think first</b><p>${esc(st.think)}</p><button class="ghost small" data-act="timer" data-sec="${st.thinkSecs || 30}">Start timer</button></div>` : "") +
+    `<button class="ghost" data-act="firstnote">Open the first note</button>`;
+}
+
+/* ---------- what each step shows: one main focus, the rest in drawers ---------- */
+const VIEW = {
+  aims(st) {
+    const A = DATA.hours[S.h].aims;
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: A.bridge || "", rail: "Aims",
+      body: `<div class="inner aimsbody"><div class="li"><div class="lab">Learning intention</div><p>${esc(A.li)}</p></div>` +
+        `<div class="sc"><div class="lab">Success criteria: by the end of the lesson I can…</div><ul>${A.sc.map((x) => `<li>${esc(x)}</li>`).join("")}</ul><p class="stretchsc"><b>Stretch:</b> ${esc(A.stretch)}</p></div></div>`,
+      drawers: [
+        { id: "donow", label: "Do now", cta: true, title: st.doNow.title, html: () => `<p class="hint">Talk in pairs first. Tap a question to check.</p>${qaCards(st.doNow.qa)}<div class="row"><button class="ghost" data-act="timer" data-sec="60">Start a 1-minute timer</button></div>` },
+        { id: "word", label: "Word of the lesson", title: "Word of the lesson", html: () => `<div class="word"><b>${esc(A.word.w)}</b> means ${esc(A.word.m)} ${esc(A.word.eg)}</div>` },
+      ],
+    };
+  },
+  context(st) {
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: st.lead, rail: "Cards",
+      body: `<div class="inner"><div class="cards">${st.blocks.map((b) => `<div class="fact card" role="button" tabindex="0" data-reveal><h3>${esc(b.h)}</h3><p class="prompt">${esc(b.prompt || "")}</p><p class="txt">${esc(b.t)}</p><span class="tap">Talk first, then tap to check</span></div>`).join("")}</div></div>`,
+      drawers: [{ id: "ideas", label: st.side.title, title: st.side.title, html: () => ideas(st.side.items) }],
+    };
+  },
+  extract(st) {
+    const phr = {}, rng = {}, stg = {};
+    st.notes.forEach((n) => {
+      if (n.phrase) { if (n.stage) (stg[n.stage] = stg[n.stage] || []).push(n); else (phr[n.at] = phr[n.at] || []).push(n); }
+      else for (let i = n.from; i <= n.to; i++) rng[i] = n;
+    });
+    const glossHTML = (l) => S.gloss && l.g ? `<div class="gl"><span class="glab">Plain English</span>${esc(l.g)}</div>` : "";
+    const body = st.lines.map((l) => {
+      if (l.k === "sp") return `<div class="sp">${esc(l.t)}</div>`;
+      if (l.k === "gap") return `<div class="gapline">${fmt(l.t)}</div>`;
+      if (l.k === "st") return `<div class="stg">${l.key && stg[l.key] ? annSpans(l.t, stg[l.key]) : fmt(l.t)}</div>`;
+      const r = rng[l.n];
+      const num = l.n % 5 === 0 ? l.n : "";
+      if (r) return `<div class="ln rng${match(r) ? "" : " dim"}" data-note="${r.id}" role="button" tabindex="0"><span class="num">${num}</span><span class="tx">${fmt(l.t)}</span>${glossHTML(l)}</div>`;
+      return `<div class="ln"><span class="num">${num}</span><span class="tx">${annSpans(l.t, phr[l.n] || [])}</span>${glossHTML(l)}</div>`;
+    }).join("");
+    return {
+      kick: `${st.label} · about ${st.mins} min`, title: st.title, sub: st.sub, rail: "Extract", focus: true,
+      actions: `<button class="tb${S.gloss ? " on" : ""}" data-act="glosstoggle" aria-pressed="${S.gloss}">Plain English ${S.gloss ? "on" : "off"}</button>`,
+      body: `<div class="lines${S.gloss ? "" : " noglo"}">${body}</div><div class="foot">Tap an underlined phrase or highlighted line to open its note. The small grey line under each passage is a plain-English paraphrase to help you read independently — the highlighted notes are the ones that matter most for themes and exam questions. Text: Folger Shakespeare Library edition (folger.edu). Line numbers as printed there.</div>`,
+      drawers: [
+        { id: "scene", label: "Before you read", title: "Before you read", cta: !!st.think, html: () => scenePanel(st) },
+        { id: "note", label: () => `Notes (${visible(st).length})` },
+      ],
+    };
+  },
+  link(st) {
+    const { html, bank } = clozeParts(st.text);
+    const drawers = [];
+    if (st.hinge) drawers.push({ id: "hinge", label: "Quick check", cta: true, title: "Quick check", html: () => hingeHTML(st.hinge) });
+    if (st.ext) drawers.push({ id: "ext", label: "Stretch", title: "Stretch", html: () => `<p class="stretchsc"><b>Stretch:</b> ${esc(st.ext)}</p>` });
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: "Read aloud and tap each gap to reveal the word.", rail: "Gap-fill",
+      actions: `<button class="tb" data-act="reveal">Reveal all</button>`,
+      body: `<div class="inner"><div class="lab">Word bank</div><div class="bank">${bank.map((a) => `<span>${esc(a)}</span>`).join("")}</div><p class="cloze">${html}</p></div>`,
+      drawers,
+    };
+  },
+  plenary(st) {
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: "Answer on your handout first. Then tap a question to check.", rail: "Exit ticket",
+      body: `<div class="inner">${qaCards(st.ticket)}</div>`,
+      drawers: [
+        { id: "rate", label: "Rate yourself", cta: true, title: "Rate yourself", html: () => `<p class="hint">How well can you do each of today’s success criteria?</p><div id="ratings">${ratingHTML(S.h)}</div>` },
+        { id: "next", label: "What’s next", title: "What’s next", html: () => `<div class="track"><p>${esc(st.next)}</p></div>` },
+      ],
+    };
+  },
+  practice(st) {
+    const kind = { mc: "Multiple choice", tf: "True or false", match: "Matching", short: "Write your answer" };
+    const cards = st.qs.map((q) => {
+      let body = `<div class="qq">${esc(q.q)}</div>`;
+      if (q.k === "mc") body += `<ol class="opts opts-a">${q.opts.map((o) => `<li>${esc(o)}</li>`).join("")}</ol>`;
+      if (q.k === "tf") body += `<ul class="opts">${q.items.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>`;
+      if (q.k === "match") body += `<div class="mt"><ul>${q.left.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><ul>${q.right.map((o) => `<li>${esc(o)}</li>`).join("")}</ul></div>`;
+      const ms = q.ms ? `<ul class="ms">${q.ms.map((m) => `<li>${esc(m)}</li>`).join("")}</ul>` : "";
+      return `<div class="qa" role="button" tabindex="0" data-qa><span class="lv">${kind[q.k]} · ${q.marks} mark${q.marks > 1 ? "s" : ""}</span>${body}<div class="aa">${esc(q.a)}${ms}</div></div>`;
+    }).join("");
+    const mins = Math.round((st.timer || 300) / 60);
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: st.sub, rail: "Questions",
+      actions: `<button class="tb" data-act="timer" data-sec="${st.timer || 300}">${mins}-minute timer</button>`,
+      body: `<div class="inner">${cards}</div>`,
+      drawers: [{ id: "tips", label: st.tipsTitle, title: st.tipsTitle, html: () => ideas(st.tips) }],
+    };
+  },
+  assess(st) {
+    return { raw: `<section class="pane wide assess"><h2>${esc(st.title)}</h2><p class="sub">${esc(st.sub || "")}</p>` +
+      `<div class="row">${st.presets.map((m) => `<button class="ghost primary big" data-act="timer" data-sec="${m * 60}">Start ${m} minutes</button>`).join("")}<button class="ghost big" data-act="tstop">Stop timer</button></div></section>`, drawers: [] };
+  },
+  spot(st) {
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: st.sub, rail: "Spot the irony",
+      body: `<div class="inner">` + st.items.map((it, i) => `<div class="spotitem" role="button" tabindex="0" data-spot="${i}"><p class="sq">${esc(it.t)}</p><p class="sw" hidden>${esc(it.why)}</p></div>`).join("") +
+        `<div class="row"><button class="ghost primary" data-act="spotcheck">Check my answers</button><button class="ghost" data-act="spotreset">Start again</button></div><p class="score" id="spotscore"></p></div>`,
+      drawers: [{ id: "tips", label: st.tipsTitle, title: st.tipsTitle, html: () => ideas(st.tips) }],
+    };
+  },
+  battle(st) {
+    const B = S.battle, R = st.rounds, done = B.r >= R.length;
+    let body;
+    if (done) {
+      body = `<div class="bcard"><p class="score">${B.meter >= 100 ? "Macbeth is settled." : "Macbeth is nearly convinced."}</p><p class="hres">${esc(st.end)}</p><button class="ghost primary" data-act="brestart">Play again</button></div>`;
+    } else {
+      const rd = R[B.r], p = B.picked;
+      body = `<div class="bcard"><span class="lab">Round ${B.r + 1} of ${R.length}: Macbeth says</span><p class="q">${esc(rd.doubt)}</p><span class="lab">Lady Macbeth: choose your tactic</span>` +
+        rd.opts.map((o, i) => `<button class="opt${p !== null ? (o.best ? " right" : i === p ? " wrong" : "") : ""}" data-bopt="${i}" ${p !== null ? "disabled" : ""}>${String.fromCharCode(65 + i)}&nbsp; ${esc(o.t)}</button>`).join("") +
+        (p !== null ? `<p class="hres"><b>${rd.opts[p].best ? "Strong choice." : "Not quite."}</b> ${esc(rd.opts[p].why)}</p><button class="ghost primary" data-act="bnext">${B.r + 1 === R.length ? "See the result" : "Next round"}</button>` : "") + `</div>`;
+    }
+    return {
+      kick: `About ${st.mins} min`, title: st.title, sub: st.sub, rail: "Battle",
+      headExtra: `<div class="mhead"><span>Macbeth’s resolve</span><div class="meter" role="img" aria-label="Macbeth’s resolve ${B.meter} percent"><div class="bar" style="width:${B.meter}%"></div></div><b>${B.meter}%</b></div>`,
+      body: `<div class="inner">${body}</div>`,
+      drawers: [{ id: "quote", label: "Use a quotation", title: "Use a quotation", html: () => `<div class="idea"><b>Use a quotation</b><p>Every strong tactic comes from a line in Scene 7. Say which line you would quote.</p></div><p class="hint">At 100% Macbeth is ready to go through with it.</p>` }],
+    };
+  },
+};
+
+/* ---------- putting a step on screen ---------- */
+function mainMarkup(v) {
+  if (v.raw) return v.raw;
+  const btns = v.drawers.map((d) => `<button class="tb${d.cta ? " cta" : ""}" data-drawer="${d.id}" aria-pressed="false">${esc(typeof d.label === "function" ? d.label() : d.label)}</button>`).join("");
+  const focus = v.focus ? `<button class="tb" data-act="focus" title="Show only the extract (F)"><i class="ic ic-focus"></i>Focus</button>` : "";
+  return `<section class="pane main" id="mainpane"><div class="phead"><div class="pt"><span class="kick">${esc(v.kick)}</span><h2>${esc(v.title)}</h2>${v.sub ? `<p class="sub">${esc(v.sub)}</p>` : ""}</div>` +
+    `<div class="ptools">${btns}${v.actions || ""}${focus}</div>${v.headExtra || ""}</div><div class="pbody" id="script">${v.body}</div></section>`;
+}
+const drawerMarkup = () =>
+  `<aside class="pane drawer" id="drawer" hidden aria-label="Side panel"><div class="dhead"><h3 id="dtitle"></h3><div class="dtools">` +
+  `<button class="tb" data-act="dwide" title="Make this panel wider or narrower"><i class="ic ic-wide"></i><span id="lw">Wider</span></button>` +
+  `<button class="tb" data-act="dfull" title="Hide the main pane to use the full width"><i class="ic ic-full"></i><span id="lf">Hide</span></button>` +
+  `<button class="ib" data-act="dclose" aria-label="Close" title="Close (Esc)"><i class="ic ic-close"></i></button></div></div><div class="dbody" id="panel" aria-live="polite"></div></aside>` +
+  `<button class="railtab" id="mainrail" data-act="showmain" hidden></button>`;
+
+function mount(keep) {
+  const el = $("#stage");
+  if (S.view === "revise") { el.innerHTML = reviseHTML(); S.drawer = null; layout(); el.firstElementChild.scrollTop = 0; return; }
+  const st = cur();
+  const v = VIEW[st.type](st);
+  DR = {}; v.drawers.forEach((d) => (DR[d.id] = d));
+  const keepTop = keep && $("#script") ? $("#script").scrollTop : 0;
+  if (!keep) { S.drawer = null; S.wide = false; S.mainHidden = false; S.sel = null; }
+  el.innerHTML = mainMarkup(v) + drawerMarkup();
+  S.rail = (v.rail || "main pane").toLowerCase();
+  const rail = $("#mainrail"); if (rail) rail.textContent = "Show " + S.rail;
+  if (S.drawer && S.drawer !== "note" && !DR[S.drawer]) S.drawer = null;
+  if (S.drawer === "note" && !S.sel) S.drawer = null;
+  layout();
+  if (S.sel) markSel();
+  const sc = $("#script"); if (sc) sc.scrollTop = keepTop;
+}
+function markSel() { document.querySelectorAll("[data-note]").forEach((el) => el.classList.toggle("on", el.dataset.note === S.sel)); }
+function layout() {
+  const c = $("#stage"), d = $("#drawer");
+  const has = !!S.drawer && !!d;
+  c.classList.toggle("has-drawer", has);
+  c.classList.toggle("wide", has && S.wide);
+  c.classList.toggle("mainhidden", has && S.mainHidden);
+  if (d) d.hidden = !has;
+  const rail = $("#mainrail"); if (rail) rail.hidden = !(has && S.mainHidden);
+  document.querySelectorAll(".tb[data-drawer]").forEach((b) => { const on = b.dataset.drawer === S.drawer; b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); });
+  if (has) { fillDrawer(); $("#lw").textContent = S.wide ? "Narrower" : "Wider"; $("#lf").textContent = (S.mainHidden ? "Show " : "Hide ") + S.rail; }
+}
+function fillDrawer() {
+  const st = cur();
+  let title, html;
+  if (S.drawer === "note") {
+    const n = S.sel && byId(st, S.sel);
+    if (!n) { closeDrawer(); return; }
+    title = "Notes"; html = notePanel(st, n);
+  } else { const dd = DR[S.drawer]; title = dd.title || (typeof dd.label === "string" ? dd.label : ""); html = dd.html(); }
+  $("#dtitle").textContent = title;
+  $("#panel").innerHTML = html;
+  $("#panel").scrollTop = 0;
+}
+function openDrawer(id) { S.drawer = id; layout(); }
+function closeDrawer() {
+  if (S.drawer === "note") S.sel = null;
+  S.drawer = null; S.wide = false; S.mainHidden = false; markSel(); layout();
+}
+function select(id) {
+  S.sel = id; S.drawer = "note"; markSel(); layout();
+  const first = document.querySelector(`[data-note="${id}"]`);
+  if (first) setTimeout(() => first.scrollIntoView({ block: "center", behavior: reduced() ? "auto" : "smooth" }), 40);
+}
+function stepNote(d) {
+  const st = cur(), vis = visible(st);
+  if (!vis.length) return;
+  let i = vis.findIndex((n) => n.id === S.sel);
+  i = i < 0 ? (d > 0 ? 0 : vis.length - 1) : (i + d + vis.length) % vis.length;
+  select(vis[i].id);
+}
+function setFocus(on) {
+  if (on && (S.view !== "lesson" || cur().type !== "extract")) return;
+  S.focus = on;
+  document.body.classList.toggle("focus", on);
+  $("#fctl").setAttribute("aria-hidden", String(!on));
+  if (on) setTimeout(() => $("#unfocus").focus({ preventScroll: true }), 400);
+  const sc = $("#script"); if (sc && on) sc.scrollTop = sc.scrollTop;
+}
+
+/* ---------- spot the irony ---------- */
+function spotCheck() {
+  const st = cur(), total = st.items.filter((i) => i.irony).length;
+  let hit = 0, wrong = 0;
+  document.querySelectorAll(".spotitem").forEach((el) => {
+    const it = st.items[+el.dataset.spot], picked = el.classList.contains("picked");
+    el.classList.remove("ok", "bad", "miss", "none");
+    if (picked && it.irony) { el.classList.add("ok"); hit++; }
+    else if (picked) { el.classList.add("bad"); wrong++; }
+    else if (it.irony) el.classList.add("miss");
+    else el.classList.add("none");
+    el.querySelector(".sw").hidden = false;
+  });
+  $("#spotscore").textContent = `You found ${hit} of ${total} ironic lines` + (wrong ? ` and picked ${wrong} that ${wrong === 1 ? "is" : "are"} not dramatic irony.` : ".");
+}
+
+/* ---------- revise mode (for home) ---------- */
+function reviseNotes() {
+  const out = [];
+  DATA.hours.forEach((h) => h.steps.filter((s) => s.type === "extract").forEach((st) => st.notes.filter((n) => n.revise).forEach((n) => out.push({ st, n }))));
+  return out;
+}
+function refText(st, n) {
+  const ln = n.at !== undefined ? `line ${n.at}` : n.from !== undefined ? (n.from === n.to ? `line ${n.from}` : `lines ${n.from}–${n.to}`) : "";
+  return `Act ${st.scene.split(".")[0]} Scene ${st.scene.split(".")[1]}${ln ? ", " + ln : ""}`;
+}
+function reviseHTML() {
+  const tabs = [["quotes", "Key quotes"], ["quiz", "Quick quiz"], ["gaps", "Gap-fills"], ["ready", "Am I ready?"]];
+  const head = `<div class="head"><h2>Revise Act 4</h2><p class="intro">Try to answer before you reveal. Nothing here is marked, so mistakes are useful.</p></div>` ;
+  let body = "";
+  if (S.rev.tab === "quotes") {
+    const all = reviseNotes();
+    const cards = all.filter(({ n }) => tagOK(n, S.rev.tag));
+    body = `<p class="intro">Read the quotation. Say what it shows about the character or the theme. Then tap to check.</p>` +
+      `<div class="qgrid">${cards.map(({ st, n }) => `<div class="qcard" role="button" tabindex="0" data-qcard><p class="qt">${fmt(quoteOf(st, n))}</p><p class="qr">${esc(refText(st, n))}</p>` +
+        `<div class="qb"><p><b>${esc(n.title)}.</b> ${esc(n.meaning)}</p><p>${esc(n.effect)}</p>${n.support ? `<p><b>Sentence starter:</b> ${esc(n.support)}</p>` : ""}${n.stretch ? `<p><b>Stretch:</b> ${esc(n.stretch)}</p>` : ""}` +
+        `<div class="tagrow">${n.tags.map((t) => `<span class="chip tg-${t}"><i class="dot"></i>${esc(DATA.TAGS[t])}</span>`).join("")}</div></div></div>`).join("")}</div>`;
+  } else if (S.rev.tab === "quiz") {
+    body = quizHTML();
+  } else if (S.rev.tab === "gaps") {
+    let n = 0;
+    DATA.hours.forEach((h) => { let last = null; h.steps.forEach((st) => {
+      if (st.type === "extract") last = st;
+      if (st.type === "link") {
+        n++;
+        const { html, bank } = clozeParts(st.text);
+        body += `<div class="gapcard"><h3>${esc(h.title)}: after ${esc(last ? last.title : "the start")}</h3><p class="cloze">${html}</p><div class="bank">${bank.map((a) => `<span>${esc(a)}</span>`).join("")}</div>` +
+          (st.ext ? `<p class="stretchsc"><b>Stretch:</b> ${esc(st.ext)}</p>` : "") + `<div class="row"><button class="ghost small" data-act="revealcard">Reveal all</button></div></div>`;
+      }
+    }); });
+    body = `<p class="intro">Fill the gaps in your head or on paper. Then tap a gap to check it.</p>` + body;
+  } else {
+    body = `<p class="intro">Rate yourself against each success criterion. Your choices stay on this device only.</p>` +
+      DATA.hours.map((h, i) => `<div class="gapcard"><h3>${esc(h.title)}</h3><p>${esc(h.aims.li)}</p><div id="ratings-${i}" class="ratings-h">${ratingHTML(i)}</div></div>`).join("");
+  }
+  return `<section class="pane wide revise" id="script">${head}${body}</section>`;
+}
+function quizHTML() {
+  const Q = DATA.QUIZ;
+  let z = S.rev.quiz;
+  if (!z) return `<div class="qz"><h3>Quick quiz</h3><p class="intro">${Q.length} questions on Act 4, Scenes 1 to 5. Pick an answer to see why.</p><button class="ghost primary" data-act="qstart">Start the quiz</button></div>`;
+  if (z.done) return `<div class="qz"><h3>Finished</h3><p class="score">${z.score} out of ${Q.length}</p><p class="intro">${z.score === Q.length ? "Every question right. Try the stretch questions in Key quotes." : "Go back to Key quotes or Gap-fills for anything that surprised you, then try again."}</p><button class="ghost primary" data-act="qstart">Try again</button></div>`;
+  const q = Q[z.order[z.i]];
+  return `<div class="qz"><span class="qn">Question ${z.i + 1} of ${Q.length}</span><h3>${esc(q.q)}</h3>` +
+    q.opts.map((o, i) => `<button class="opt${z.picked !== null ? (i === q.correct ? " right" : i === z.picked ? " wrong" : "") : ""}" data-qopt="${i}" ${z.picked !== null ? "disabled" : ""}>${"ABCD"[i]}&nbsp; ${esc(o)}</button>`).join("") +
+    (z.picked !== null ? `<p class="why"><b>${z.picked === q.correct ? "Correct." : "Not quite."}</b> ${esc(q.why)}</p><button class="ghost primary" data-act="qnext">${z.i + 1 === Q.length ? "See my score" : "Next question"}</button>` : "") + `</div>`;
+}
+function qstart() {
+  const order = DATA.QUIZ.map((_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+  S.rev.quiz = { order, i: 0, score: 0, picked: null, done: false };
+}
+
+/* ---------- navigation ---------- */
+function renderAll() { renderTop(); renderNav(); renderFilters(); mount(false); }
+function go(h, s) {
+  if (S.focus) setFocus(false);
+  S.view = "lesson"; S.h = h; S.s = s; S.sel = null; S.battle = { r: 0, meter: 20, picked: null };
+  renderAll();
+}
+function move(d) {
+  let h = S.h, s = S.s + d;
+  if (s < 0) { if (h === 0) return; h--; s = DATA.hours[h].steps.length - 1; }
+  else if (s >= DATA.hours[h].steps.length) { if (h === DATA.hours.length - 1) return; h++; s = 0; }
+  go(h, s);
+}
+function showRevise() { if (S.focus) setFocus(false); S.view = "revise"; renderTop(); renderNav(); renderFilters(); mount(false); }
+
+/* ---------- timer ---------- */
+const T = { id: null, end: 0 };
+const mmss = (s) => Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
+function timerStart(sec) {
+  clearInterval(T.id);
+  const el = $("#timer"); el.hidden = false; el.classList.remove("done");
+  T.end = Date.now() + sec * 1000;
+  const tick = () => {
+    const left = Math.max(0, Math.ceil((T.end - Date.now()) / 1000));
+    $("#tt").textContent = left > 0 ? mmss(left) : "Time!";
+    if (left <= 0) { clearInterval(T.id); el.classList.add("done"); }
+  };
+  tick(); T.id = setInterval(tick, 250);
+}
+function timerStop() { clearInterval(T.id); $("#timer").hidden = true; }
+
+/* ---------- events ---------- */
+function syncReveal(scope) {
+  const btn = (scope || document).querySelector('[data-act="reveal"],[data-act="revealcard"]');
+  if (!btn) return;
+  const gaps = [...(scope || document).querySelectorAll(".gap")];
+  btn.textContent = gaps.length && gaps.every((g) => g.classList.contains("open")) ? "Hide all" : "Reveal all";
+}
+function hingeMark(box, hg, picked) {
+  box.querySelectorAll(".opt").forEach((o, j) => { o.classList.toggle("right", j === hg.correct); o.classList.toggle("wrong", picked !== null && j === picked && j !== hg.correct); });
+  const res = box.querySelector(".hres"); res.hidden = false;
+  res.innerHTML = `<b>${picked === null ? "Answer:" : picked === hg.correct ? "Correct." : "Not quite."}</b> ${esc(hg.why)}`;
+}
+function hidePops() {
+  document.querySelectorAll(".pop").forEach((p) => { p.hidden = true; const b = p.parentElement.querySelector("button[aria-haspopup]"); if (b) b.setAttribute("aria-expanded", "false"); });
+}
+document.addEventListener("click", (e) => {
+  const t = e.target;
+  const pb = t.closest("button[aria-haspopup]");
+  if (pb) {
+    const p = pb.parentElement.querySelector(".pop"), wasHidden = p.hidden;
+    hidePops(); p.hidden = !wasHidden; pb.setAttribute("aria-expanded", String(wasHidden));
+    return;
+  }
+  if (!t.closest(".pop")) hidePops();
+  const dr = t.closest("[data-drawer]");
+  if (dr) {
+    const id = dr.dataset.drawer;
+    if (S.drawer === id) closeDrawer();
+    else if (id === "note") { if (S.sel && visible(cur()).some((n) => n.id === S.sel)) select(S.sel); else stepNote(1); }
+    else { if (S.drawer === "note") S.sel = null; markSel(); openDrawer(id); }
+    return;
+  }
+  const note = t.closest("[data-note]");
+  if (note) { select(note.dataset.note); return; }
+  const gap = t.closest("[data-gap]");
+  if (gap) { gap.classList.toggle("open"); syncReveal(gap.closest(".gapcard") || document); return; }
+  const qa = t.closest("[data-qa]");
+  if (qa) { qa.classList.toggle("open"); return; }
+  const fact = t.closest("[data-reveal]");
+  if (fact) { fact.classList.toggle("open"); return; }
+  const sp = t.closest("[data-spot]");
+  if (sp) { if (!/\b(ok|bad|miss|none)\b/.test(sp.className)) sp.classList.toggle("picked"); return; }
+  const bo = t.closest("[data-bopt]");
+  if (bo) {
+    const B = S.battle, rd = cur().rounds[B.r];
+    if (B.picked === null) { B.picked = +bo.dataset.bopt; B.meter = Math.min(100, B.meter + rd.opts[B.picked].pts); mount(true); }
+    return;
+  }
+  const qc = t.closest("[data-qcard]");
+  if (qc) { qc.classList.toggle("open"); return; }
+  const hb = t.closest("[data-hinge]");
+  if (hb) { hingeMark(hb.closest(".hinge"), cur().hinge, +hb.dataset.hinge); return; }
+  const rate = t.closest("[data-rate]");
+  if (rate) {
+    const [h, i, v] = rate.dataset.rate.split(":");
+    S.rate[h + ":" + i] = +v; saveRate();
+    const box = rate.closest("#ratings, .ratings-h");
+    if (box) box.innerHTML = ratingHTML(+h);
+    return;
+  }
+  const qo = t.closest("[data-qopt]");
+  if (qo) {
+    const z = S.rev.quiz, q = DATA.QUIZ[z.order[z.i]];
+    if (z.picked === null) { z.picked = +qo.dataset.qopt; if (z.picked === q.correct) z.score++; $("#stage").innerHTML = reviseHTML(); }
+    return;
+  }
+  const b = t.closest("button");
+  if (!b) return;
+  if (b.closest("#tmenu")) { timerStart(+b.dataset.sec); hidePops(); return; }
+  if (b.dataset.view === "revise") { hidePops(); showRevise(); return; }
+  if (b.dataset.h !== undefined) { hidePops(); return go(+b.dataset.h, 0); }
+  if (b.dataset.s !== undefined) return go(S.h, +b.dataset.s);
+  if (b.dataset.tab) { S.rev.tab = b.dataset.tab; renderNav(); renderFilters(); $("#stage").innerHTML = reviseHTML(); return; }
+  if (b.dataset.tag !== undefined) {
+    if (S.view === "revise") { S.rev.tag = b.dataset.tag; renderFilters(); $("#stage").innerHTML = reviseHTML(); return; }
+    S.tag = b.dataset.tag;
+    const st = cur();
+    if (S.sel && !match(byId(st, S.sel))) { S.sel = null; if (S.drawer === "note") S.drawer = null; }
+    renderFilters(); mount(true);
+    return;
+  }
+  switch (b.dataset.act) {
+    case "next": move(1); break;
+    case "prev": move(-1); break;
+    case "nn": stepNote(1); break;
+    case "pn": stepNote(-1); break;
+    case "firstnote": stepNote(1); break;
+    case "dclose": closeDrawer(); break;
+    case "dwide": S.wide = !S.wide; S.mainHidden = false; layout(); break;
+    case "dfull": S.mainHidden = !S.mainHidden; layout(); break;
+    case "showmain": S.mainHidden = false; layout(); break;
+    case "focus": setFocus(true); break;
+    case "glosstoggle": S.gloss = !S.gloss; mount(true); break;
+    case "unfocus": setFocus(false); break;
+    case "tog": { const el = $("#panel ." + b.dataset.t); if (el) { el.hidden = !el.hidden; if (!el.hidden) el.scrollIntoView({ block: "nearest" }); } break; }
+    case "timer": timerStart(+b.dataset.sec); break;
+    case "spotcheck": spotCheck(); break;
+    case "spotreset": mount(true); break;
+    case "bnext": S.battle.r++; S.battle.picked = null; mount(true); break;
+    case "brestart": S.battle = { r: 0, meter: 20, picked: null }; mount(true); break;
+    case "tstop": timerStop(); break;
+    case "hingeshow": hingeMark(b.closest(".hinge"), cur().hinge, null); break;
+    case "qstart": qstart(); $("#stage").innerHTML = reviseHTML(); break;
+    case "qnext": { const z = S.rev.quiz; z.i++; z.picked = null; if (z.i >= DATA.QUIZ.length) z.done = true; $("#stage").innerHTML = reviseHTML(); break; }
+    case "reveal": case "revealcard": {
+      const scope = b.closest(".gapcard") || document;
+      const gaps = scope.querySelectorAll(".gap");
+      const allOpen = [...gaps].every((g) => g.classList.contains("open"));
+      gaps.forEach((g) => g.classList.toggle("open", !allOpen));
+      syncReveal(scope);
+      break;
+    }
+  }
+});
+document.addEventListener("keydown", (e) => {
+  const tg = e.target instanceof Element ? e.target : document.body;
+  if ((e.key === "Enter" || e.key === " ") && tg.matches("[role=button]")) { e.preventDefault(); tg.click(); return; }
+  if (tg.matches("input,textarea") || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.key === "Escape") {
+    if ([...document.querySelectorAll(".pop")].some((p) => !p.hidden)) hidePops();
+    else if (S.focus) setFocus(false);
+    else if (S.drawer) closeDrawer();
+    return;
+  }
+  if (S.view !== "lesson") return;
+  if (e.key === "f" || e.key === "F") { setFocus(!S.focus); return; }
+  if (S.focus) return;
+  if (e.key === "ArrowRight") move(1);
+  else if (e.key === "ArrowLeft") move(-1);
+  else if (e.key === "]") stepNote(1);
+  else if (e.key === "[") stepNote(-1);
+});
+
+/* tools */
+function setScale(d) {
+  S.scale = Math.min(1.6, Math.max(0.75, +(S.scale + d).toFixed(2)));
+  document.documentElement.style.setProperty("--scale", S.scale);
+}
+["#fsm", "#ffm"].forEach((id) => $(id).addEventListener("click", () => setScale(-0.1)));
+["#fsp", "#ffp"].forEach((id) => $(id).addEventListener("click", () => setScale(0.1)));
+function effectiveTheme() { return document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); }
+function syncTheme() { $("#theme").textContent = effectiveTheme() === "dark" ? "Day mode" : "Night mode"; }
+$("#theme").addEventListener("click", () => { document.documentElement.dataset.theme = effectiveTheme() === "dark" ? "light" : "dark"; syncTheme(); });
+$("#full").addEventListener("click", () => {
+  try { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen(); } catch (err) { /* not available */ }
+});
+syncTheme();
+renderAll();
+
+</script>
+</body>
+</html>
